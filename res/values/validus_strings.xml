@@ -86,4 +86,7 @@
     <!-- Device specific settings -->
     <string name="screen_off_gesture_settings_title">Screen off gestures</string>
 
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
 </resources>
