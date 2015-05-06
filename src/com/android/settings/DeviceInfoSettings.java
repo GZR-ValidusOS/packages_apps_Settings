@@ -84,7 +84,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
     private static final String KEY_SLIM_OTA = "slimota";
 
+    static final int TAPS_TO_BE_A_DEVELOPER = 7;
+
     long[] mHits = new long[3];
+    static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
     private UserManager mUm;
 
@@ -188,6 +191,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     @Override
     public void onResume() {
         super.onResume();
+        mDevHitCountdown = getActivity().getSharedPreferences(DevelopmentSettings.PREF_FILE,
+                Context.MODE_PRIVATE).getBoolean(DevelopmentSettings.PREF_SHOW,
+                        android.os.Build.TYPE.equals("eng") || android.os.Build.TYPE.equals("userdebug")
+                        || android.os.Build.TYPE.equals("user")) ? -1 : TAPS_TO_BE_A_DEVELOPER;
+        mDevHitToast = null;
         mFunDisallowedAdmin = RestrictedLockUtils.checkIfRestrictionEnforced(
                 getActivity(), UserManager.DISALLOW_FUN, UserHandle.myUserId());
         mFunDisallowedBySystem = RestrictedLockUtils.hasBaseUserRestriction(
@@ -222,6 +230,59 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
                 }
+            }
+        } else if (preference.getKey().equals(KEY_BUILD_NUMBER)) {
+            // Don't enable developer options for secondary users.
+            if (!mUm.isAdminUser()) return true;
+
+            // Don't enable developer options until device has been provisioned
+            if (!Utils.isDeviceProvisioned(getActivity())) {
+                return true;
+            }
+
+            if (mUm.hasUserRestriction(UserManager.DISALLOW_DEBUGGING_FEATURES)) {
+                if (mDebuggingFeaturesDisallowedAdmin != null &&
+                        !mDebuggingFeaturesDisallowedBySystem) {
+                    RestrictedLockUtils.sendShowAdminSupportDetailsIntent(getActivity(),
+                            mDebuggingFeaturesDisallowedAdmin);
+                }
+                return true;
+            }
+
+            if (mDevHitCountdown > 0) {
+                mDevHitCountdown--;
+                if (mDevHitCountdown == 0) {
+                    getActivity().getSharedPreferences(DevelopmentSettings.PREF_FILE,
+                            Context.MODE_PRIVATE).edit().putBoolean(
+                                    DevelopmentSettings.PREF_SHOW, true).apply();
+                    if (mDevHitToast != null) {
+                        mDevHitToast.cancel();
+                    }
+                    mDevHitToast = Toast.makeText(getActivity(), R.string.show_dev_already_enabled,
+                            Toast.LENGTH_LONG);
+                    mDevHitToast.show();
+                    // This is good time to index the Developer Options
+                    Index.getInstance(
+                            getActivity().getApplicationContext()).updateFromClassNameResource(
+                                    DevelopmentSettings.class.getName(), true, true);
+
+                } else if (mDevHitCountdown > 0
+                        && mDevHitCountdown < (TAPS_TO_BE_A_DEVELOPER-2)) {
+                    if (mDevHitToast != null) {
+                        mDevHitToast.cancel();
+                    }
+                    mDevHitToast = Toast.makeText(getActivity(), getResources().getQuantityString(
+                            R.plurals.show_dev_countdown, mDevHitCountdown, mDevHitCountdown),
+                            Toast.LENGTH_SHORT);
+                    mDevHitToast.show();
+                }
+            } else if (mDevHitCountdown < 0) {
+                if (mDevHitToast != null) {
+                    mDevHitToast.cancel();
+                }
+                mDevHitToast = Toast.makeText(getActivity(), R.string.show_dev_already_enabled,
+                        Toast.LENGTH_LONG);
+                mDevHitToast.show();
             }
         } else if (preference.getKey().equals(KEY_SECURITY_PATCH)) {
             if (getPackageManager().queryIntentActivities(preference.getIntent(), 0).isEmpty()) {
