@@ -19,6 +19,9 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
    <!-- Manage applications: show substratum overlays -->
    <string name="filter_substratum_apps">Substratum overlays</string>
    <string name="menu_show_substratum">Show overlays</string>
