@@ -133,6 +133,11 @@ import com.android.settingslib.drawer.Tile;
 
 import com.gzr.wolvesden.WolvesDen;
 
+import com.gzr.wolvesden.fragments.FlingSettings;
+import com.gzr.wolvesden.fragments.NavbarSettings;
+import com.gzr.wolvesden.fragments.SmartbarSettings;
+import com.gzr.wolvesden.fragments.PulseSettings;
+
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
@@ -356,7 +361,10 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             WolvesDen.class.getName(),
-
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
