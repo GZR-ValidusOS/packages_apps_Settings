@@ -67,6 +67,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_FIRMWARE_VERSION = "firmware_version";
     private static final String KEY_SECURITY_PATCH = "security_patch";
     private static final String KEY_UPDATE_SETTING = "additional_system_update_settings";
+    private static final String KEY_VALIDUS_VERSION = "validus_version";
+    private static final String KEY_VALIDUS_BUILD_DATE = "build_date";
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
@@ -104,6 +106,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         setStringSummary(KEY_FIRMWARE_VERSION, Build.VERSION.RELEASE);
         findPreference(KEY_FIRMWARE_VERSION).setEnabled(true);
+        setValueSummary(KEY_VALIDUS_VERSION, "ro.validus.version");
+        setValueSummary(KEY_VALIDUS_BUILD_DATE, "ro.build.date");
 
         final String patch = DeviceInfoUtils.getSecurityPatch();
         if (!TextUtils.isEmpty(patch)) {
