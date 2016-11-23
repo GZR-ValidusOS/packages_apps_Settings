@@ -19,6 +19,16 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
 
+   <!-- Manage applications: show substratum overlays -->
+   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="menu_show_substratum">Show overlays</string>
+   <string name="menu_hide_substratum">Hide overlays</string>
+
+   <!-- Dynamic notification tint -->
+   <string name="notification_tint_title">Dynamic notification title color</string>
+   <string name="notification_tint_summary_off">Title color on notification will be handled by the theme</string>
+   <string name="notification_tint_summary_on">Title color on notification will be taken from app icon color</string> 
+
     <!-- Devicehandler Shortcut actions -->
     <string name="shortcut_action_none">None</string>
     <string name="shortcut_action_app">Custom app</string>
