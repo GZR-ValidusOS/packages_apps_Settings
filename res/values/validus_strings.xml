@@ -19,6 +19,10 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
 
+    <!-- WolvesDen -->
+    <string name="wolvesden_title">WolvesDen</string>
+    <string name="header_category_wolvesden">Customization</string>
+
     <!-- Dashboard options -->
     <string name="dashboard_category">Dashboard options</string>
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
