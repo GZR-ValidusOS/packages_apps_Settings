@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.tesla;
+package com.android.settings.validus;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -137,7 +137,7 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.TESLACOIL;
+        return MetricsEvent.WOLVESDEN;
     }
 
     private SharedPreferences getDefaultStepsPrefs() {

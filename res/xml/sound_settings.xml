@@ -39,7 +39,7 @@
                 android:title="@string/ring_volume_option_title" />
 
         <!-- Increasing ring -->
-        <com.gzr.teslacoil.preference.SystemSettingSwitchPreference
+        <com.android.settings.preference.SystemSettingSwitchPreference
                 android:key="increasing_ring"
                 android:title="@string/increasing_ring_volume_option_title" />
 
@@ -65,7 +65,7 @@
         <PreferenceScreen
                 android:key="volume_steps"
                 android:title="@string/volume_steps_title"
-                android:fragment="com.android.settings.tesla.VolumeSteps" />
+                android:fragment="com.android.settings.validus.VolumeSteps" />
 
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference
