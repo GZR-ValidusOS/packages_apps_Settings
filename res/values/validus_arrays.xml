@@ -19,6 +19,27 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Display rotation -->
+    <string-array name="display_rotation_entries">
+        <item>@string/display_rotation_0_title</item>
+        <item>@string/display_rotation_90_title</item>
+        <item>@string/display_rotation_180_title</item>
+        <item>@string/display_rotation_270_title</item>
+    </string-array>
+
+    <string-array name="display_rotation_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="display_rotation_default_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>8</item>
+    </string-array>
+
     <!-- Arrays for Screen off gestures -->
     <string-array name="shortcut_action_screen_off_entries">
         <item>@string/shortcut_action_app</item>

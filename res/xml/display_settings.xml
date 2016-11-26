@@ -103,10 +103,24 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
-        <DropDownPreference
-                android:key="auto_rotate"
-                android:summary="%s"
-                android:title="@string/display_auto_rotate_title" />
+         <PreferenceCategory
+                android:key="rotation_category"
+                android:title="@string/display_rotation_category_title">
+
+        <SwitchPreference
+                android:key="accelerometer"
+                android:title="@string/accelerometer_title"
+                android:persistent="false" />
+
+        <MultiSelectListPreference
+                android:key="rotation_angles"
+                android:title="@string/display_rotation_title"
+                android:defaultValue="@array/display_rotation_default_values"
+                android:entries="@array/display_rotation_entries"
+                android:entryValues="@array/display_rotation_values"
+                android:persistent="false" />
+
+        </PreferenceCategory>
 
         <PreferenceScreen
                 android:key="wifi_display"
