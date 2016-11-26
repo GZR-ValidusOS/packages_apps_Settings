@@ -137,7 +137,7 @@
                 android:summaryOff="@string/summary_dashboard_conditions_disabled"
                 android:defaultValue="true" />
 
-        <com.android.settings.SystemSettingSwitchPreference
+        <com.android.settings.preference.SystemSettingSwitchPreference
                 android:key="remove_tile_summary"
                 android:title="@string/remove_tile_summaries_title"
                 android:summary="@string/remove_tile_summaries_summary"
