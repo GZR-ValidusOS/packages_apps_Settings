@@ -32,13 +32,6 @@
                 settings:keywords="@string/keywords_display_auto_brightness"
                 android:summary="@string/auto_brightness_summary" />
 
-        <com.android.settings.display.NightDisplayPreference
-                android:key="night_display"
-                android:title="@string/night_display_title"
-                android:fragment="com.android.settings.display.NightDisplaySettings"
-                android:widgetLayout="@null"
-                settings:keywords="@string/keywords_display_night_display" />
-
         <!-- Hide night mode for now
         <ListPreference
             android:key="night_mode"
@@ -47,6 +40,13 @@
             android:summary="@string/night_mode_summary"
             android:entries="@array/night_mode_entries"
             android:entryValues="@array/night_mode_values" /> -->
+
+        <com.android.settings.display.NightDisplayPreference
+                android:key="night_display"
+                android:title="@string/night_display_title"
+                android:fragment="com.android.settings.display.NightDisplaySettings"
+                android:widgetLayout="@null"
+                settings:keywords="@string/keywords_display_night_display" />
 
         <com.android.settingslib.RestrictedPreference
                 android:key="wallpaper"
