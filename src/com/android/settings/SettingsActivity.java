@@ -132,6 +132,7 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 
 import com.gzr.wolvesden.WolvesDen;
+import com.gzr.wolvesden.fragments.ExpandedDesktop;
 
 import com.gzr.wolvesden.fragments.FlingSettings;
 import com.gzr.wolvesden.fragments.NavbarSettings;
@@ -361,6 +362,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             WolvesDen.class.getName(),
+            ExpandedDesktop.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),

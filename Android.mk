@@ -1,7 +1,6 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-<<<<<<< HEAD
 LOCAL_SRC_FILES := \
         $(call all-logtags-files-under, src)
 
