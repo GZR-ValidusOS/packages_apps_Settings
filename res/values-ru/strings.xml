@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="4676390750360727396">"Да"</string>
@@ -73,7 +69,7 @@
     <string name="sdcard_format" product="nosdcard" msgid="6285310523155166716">"Очистить USB-накопитель"</string>
     <string name="sdcard_format" product="default" msgid="6713185532039187532">"Очистить SD-карту"</string>
     <string name="preview_pager_content_description" msgid="8926235999291761243">"Просмотр"</string>
-    <string name="preview_page_indicator_content_description" msgid="4821343428913401264">"Предпросмотр, страница <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> из <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
+    <string name="preview_page_indicator_content_description" msgid="4821343428913401264">"Предпросмотр, страница <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> из <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
     <string name="font_size_summary" msgid="1690992332887488183">"Увеличение или уменьшение размера шрифта."</string>
     <string name="small_font" msgid="2295331917424072635">"Маленький"</string>
     <string name="medium_font" msgid="2068475425515133701">"Среднее"</string>
@@ -84,7 +80,7 @@
     <skip />
     <string name="font_size_preview_text_headline" msgid="7955317408475392247">"Пример текста"</string>
     <string name="font_size_preview_text_title" msgid="1310536233106975546">"Удивительный волшебник из страны Оз"</string>
-    <string name="font_size_preview_text_subtitle" msgid="4231671528173110093">"Глава 11. Изумрудный город страны Оз"</string>
+    <string name="font_size_preview_text_subtitle" msgid="4231671528173110093">"Глава 11. Изумрудный город страны Оз"</string>
     <string name="font_size_preview_text_body" msgid="1250552239682375643">"Даже в защитных очках Дороти и ее друзья были ослеплены блеском прекрасного города. Вдоль улиц тянулись дома из зеленого мрамора, усыпанные сверкающими изумрудами. Из того же мрамора была сделана мостовая, по которой шли путники. Промежутки между плитами были заполнены изумрудами, сияющими под солнцем. Даже его лучи были зелеными, как окна в домах и небо над городом.\n\nВокруг сновали женщины, мужчины и дети. Одежда на них была зеленого цвета, а кожа имела зеленоватый оттенок. Они с удивлением смотрели на Дороти и ее странных спутников. Завидев Льва, малыши прятались за спины родителей. Никто не решался заговорить с чужеземцами. Дороти заметила, что все товары в многочисленных магазинах города были зелеными: платья, сюртуки, ботинки, шляпы, конфеты и даже воздушная кукуруза. В одной из лавок продавался зеленый лимонад, и окружившие торговца дети расплачивались зелеными монетками.\n\nКазалось, что в городе не было ни лошадей, ни других животных. Мужчины возили вещи в небольших зеленых тележках, которые они толкали перед собой. Все выглядели веселыми и довольными."</string>
     <string name="font_size_save" msgid="3450855718056759095">"ОК"</string>
     <string name="sdcard_setting" product="nosdcard" msgid="8281011784066476192">"USB-накопитель"</string>
@@ -124,15 +120,15 @@
     <string name="device_picker" msgid="4978696506172252813">"Выбрать устройство Bluetooth"</string>
     <string name="bluetooth_permission_request" msgid="1523129741266262748">"Запрос разрешения на включение Bluetooth"</string>
     <string name="bluetooth_ask_enablement" msgid="1712443355224737143">"Приложению требуется включить Bluetooth на устройстве."</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="786921566047356213">"Одному из приложений требуется, чтобы ваш планшетный ПК был доступен для поиска через Bluetooth на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
-    <string name="bluetooth_ask_discovery" product="default" msgid="5510358858113713272">"Одному из приложений требуется, чтобы ваш телефон был доступен для поиска через Bluetooth на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
+    <string name="bluetooth_ask_discovery" product="tablet" msgid="786921566047356213">"Одному из приложений требуется, чтобы ваш планшетный ПК был доступен для поиска через Bluetooth на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
+    <string name="bluetooth_ask_discovery" product="default" msgid="5510358858113713272">"Одному из приложений требуется, чтобы ваш телефон был доступен для поиска через Bluetooth на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
     <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="8863617309580598607">"Одному из приложений требуется сделать ваш планшетный ПК доступным для поиска через Bluetooth на других устройствах. Позже эти настройки можно будет изменить."</string>
     <string name="bluetooth_ask_lasting_discovery" product="default" msgid="6487606808683607975">"Одному из приложений требуется сделать ваш телефон доступным для поиска через Bluetooth на других устройствах. Позже эти настройки можно будет изменить."</string>
     <string name="bluetooth_ask_start_broadcast" product="default" msgid="3535628155254187911">"<xliff:g id="APP_NAME">%1$s</xliff:g> собирается включить Bluetooth, чтобы установить соединение с другими устройствами. Эту функцию можно в любой момент отключить в настройках Bluetooth."</string>
     <string name="bluetooth_ask_enablement_and_start_broadcast" product="default" msgid="8810858601242763295">"<xliff:g id="APP_NAME">%1$s</xliff:g> собирается включить Bluetooth, чтобы установить соединение с другими устройствами. Эту функцию можно в любой момент отключить в настройках Bluetooth."</string>
     <string name="bluetooth_broadcasting_explaination" product="default" msgid="4249322115655011799">"Ваш телефон сможет устанавливать соединение с другими устройствами поблизости.\n\nПри передаче данных используется сигнал Bluetooth с низким энергопотреблением."</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="3346529092809011149">"Одному из приложений требуется включить Bluetooth и сделать ваш планшетный ПК доступным для поиска на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="4724094889807196118">"Одному из приложений требуется включить Bluetooth и сделать ваш телефон доступным для поиска на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="3346529092809011149">"Одному из приложений требуется включить Bluetooth и сделать ваш планшетный ПК доступным для поиска на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
+    <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="4724094889807196118">"Одному из приложений требуется включить Bluetooth и сделать ваш телефон доступным для поиска на других устройствах в течение <xliff:g id="TIMEOUT">%1$d</xliff:g> сек."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="989613204829097159">"Одному из приложений требуется включить Bluetooth и сделать ваш планшетный ПК доступным для поиска на других устройствах. Позже эти настройки можно будет изменить."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="6671615712909139801">"Одному из приложений требуется включить Bluetooth и сделать ваш телефон доступным для поиска на других устройствах. Позже эти настройки можно будет изменить."</string>
     <string name="bluetooth_turning_on" msgid="4850574877288036646">"Включение Bluetooth..."</string>
@@ -342,7 +338,9 @@
     </plurals>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="3201556857492526098">"Сканер отпечатков пальцев"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="7066417934622827305">"Сканер отпечатков пальцев"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message" msgid="3508870672887336095">"Чтобы разблокировать телефон, подтвердить покупку или войти в приложение, приложите палец к сканеру отпечатков. Сохраните на устройстве отпечатки тех, кому вы доверяете, и они тоже смогут это делать.\n\nУчтите, что распознавание отпечатков защищает не так надежно, как графический ключ или PIN-код."</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="4193477159493347679">"Чтобы подтвердить покупку или войти в приложение, приложите палец к сканеру. Сохраните на устройстве отпечатки пользователей, которым доверяете, и они тоже смогут это делать.\n\nПомните, что сканер нельзя использовать для разблокировки этого устройства. За подробной информацией обратитесь к системному администратору."</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_setup" msgid="3635924459027832861">"Чтобы разблокировать телефон, подтвердить покупку или войти в приложение, приложите палец к сканеру отпечатков. Сохраните на устройстве отпечатки тех, кому вы доверяете, и они тоже смогут это делать.\n\nУчтите, что распознавание отпечатков защищает не так надежно, как графический ключ или PIN-код."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="3199351118385606526">"Отмена"</string>
     <string name="security_settings_fingerprint_enroll_introduction_continue" msgid="7472492858148162530">"Продолжить"</string>
@@ -384,8 +382,6 @@
     <string name="security_settings_fingerprint_enroll_disclaimer" msgid="2624905914239271751">"Добавьте отпечаток пальца, чтобы только вы смогли разблокировать телефон, совершать покупки и открывать приложения. "<annotation id="url">"Подробнее…"</annotation></string>
     <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled" msgid="7007548031540826618">"Блокировка экрана отключена. За дополнительной информацией обратитесь к администратору организации. "<annotation id="admin_details">"Подробнее…"</annotation>\n\n"Вы по-прежнему можете совершать покупки и открывать приложения с помощью отпечатка пальца. "<annotation id="url">"Подробнее..."</annotation></string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again" msgid="1888772560642539718">"Поднимите палец и снова приложите его к сканеру"</string>
-    <string name="setup_fingerprint_enroll_finish_message" msgid="4132164775128798343">"Этот значок сообщает, что вы можете использовать отпечаток пальца."</string>
-    <string name="setup_fingerprint_enroll_finish_secondary_message" msgid="3734962461534384882">"Чтобы изменить параметры, нажмите \"Настройки &gt; Безопасность &gt; Отпечатки пальцев\"."</string>
     <string name="fingerprint_add_max" msgid="1020927549936895822">"Максимальное количество отпечатков пальца, которые можно добавить: <xliff:g id="COUNT">%d</xliff:g>"</string>
     <string name="fingerprint_last_delete_title" msgid="6410310101247028988">"Удалить отпечатки пальцев?"</string>
     <string name="fingerprint_last_delete_message" msgid="8318926239554839722">"Вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с помощью отпечатков пальцев."</string>
@@ -396,8 +392,8 @@
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"Зашифровать данные"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="1878996487755806122">"Зашифровать данные"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="1868233637888132906">"Данные зашифрованы"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="503014594435731275">"Вы можете зашифровать свои аккаунты, настройки, скачанные приложения и их данные, а также медиаданные и другие файлы на устройстве. После этого для расшифровки вам будет необходимо при каждом включении устройства разблокировать экран, если настроена его блокировка (графический ключ, PIN-код или пароль). Другой способ расшифровки – это сбросить настройки телефона, в результате чего все данные будут удалены.\n\nОбычно шифрование данных занимает около часа или более. Перед процедурой полностью зарядите батарею и не отключайте зарядное устройство, пока шифрование не завершится. Если прервать процесс, все данные или их часть будет утеряна."</string>
-    <string name="crypt_keeper_desc" product="default" msgid="2579929266645543631">"Вы можете зашифровать свои аккаунты, настройки, скачанные приложения и их данные, а также медиаданные и другие файлы на устройстве. После этого для расшифровки вам будет необходимо при каждом включении устройства разблокировать экран, если настроена его блокировка (графический ключ, PIN-код или пароль). Другой способ расшифровки – это сбросить настройки телефона, в результате чего все данные будут удалены.\n\nОбычно шифрование данных занимает около часа или более. Перед процедурой полностью зарядите батарею и не отключайте зарядное устройство, пока шифрование не завершится. Если прервать процесс, все данные или их часть будет утеряна."</string>
+    <string name="crypt_keeper_desc" product="tablet" msgid="503014594435731275">"Вы можете зашифровать свои аккаунты, настройки, скачанные приложения и их данные, а также медиаданные и другие файлы на устройстве. После этого для расшифровки вам будет необходимо при каждом включении устройства разблокировать экран, если настроена его блокировка (графический ключ, PIN-код или пароль). Другой способ расшифровки – это сбросить настройки телефона, в результате чего все данные будут удалены.\n\nОбычно шифрование данных занимает около часа или более. Перед процедурой полностью зарядите батарею и не отключайте зарядное устройство, пока шифрование не завершится. Если прервать процесс, все данные или их часть будет утеряна."</string>
+    <string name="crypt_keeper_desc" product="default" msgid="2579929266645543631">"Вы можете зашифровать свои аккаунты, настройки, скачанные приложения и их данные, а также медиаданные и другие файлы на устройстве. После этого для расшифровки вам будет необходимо при каждом включении устройства разблокировать экран, если настроена его блокировка (графический ключ, PIN-код или пароль). Другой способ расшифровки – это сбросить настройки телефона, в результате чего все данные будут удалены.\n\nОбычно шифрование данных занимает около часа или более. Перед процедурой полностью зарядите батарею и не отключайте зарядное устройство, пока шифрование не завершится. Если прервать процесс, все данные или их часть будет утеряна."</string>
     <string name="crypt_keeper_button_text" product="tablet" msgid="1189623490604750854">"Зашифровать данные"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="2008346408473255519">"Зашифровать данные"</string>
     <string name="crypt_keeper_low_charge_text" msgid="2029407131227814893">"Зарядите батарею и повторите попытку."</string>
@@ -414,7 +410,7 @@
     <string name="crypt_keeper_setup_time_remaining" product="default" msgid="1862964662304683072">"Шифрование завершится через <xliff:g id="DURATION">^1</xliff:g>."</string>
     <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="556504311511212648">"Чтобы разблокировать планшетный ПК, выключите его и снова включите."</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="1794353635603020327">"Чтобы разблокировать телефон, выключите его и снова включите."</string>
-    <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Внимание! Осталось попыток: <xliff:g id="COUNT">^1</xliff:g>. Если вам не удастся выполнить авторизацию, память устройства будет очищена."</string>
+    <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Внимание! Осталось попыток: <xliff:g id="COUNT">^1</xliff:g>. Если вам не удастся выполнить авторизацию, память устройства будет очищена."</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Введите пароль"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Сбой шифрования"</string>
     <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Данные на вашем планшетном ПК больше недоступны из-за того, что шифрование было прервано. \n\nЧтобы дальше использовать устройство, нужно сбросить настройки. После этого вы сможете восстановить все данные, для которых в аккаунте Google были созданы резервные копии."</string>
@@ -457,47 +453,41 @@
     <string name="fingerprint_unlock_set_unlock_pattern" msgid="4939057588092120368">"Отпечатки пальцев и графический ключ"</string>
     <string name="fingerprint_unlock_set_unlock_pin" msgid="8010746824051056986">"Отпечатки пальцев и PIN-код"</string>
     <string name="fingerprint_unlock_set_unlock_password" msgid="7351131075806338634">"Отпечатки пальцев и пароль"</string>
+    <string name="fingerprint_unlock_skip_fingerprint" msgid="1441077909803666681">"Продолжить без настройки отпечатка"</string>
+    <string name="fingerprint_unlock_title" msgid="2826226740306003991">"Вы можете настроить разблокировку телефона с помощью отпечатка пальца. В целях безопасности вам нужно будет также установить дополнительный способ разблокировки."</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="2120729867788851674">"Запрещено администратором, политикой шифрования или хранилищем учетных данных"</string>
     <string name="unlock_set_unlock_mode_off" msgid="5881952274566013651">"Нет"</string>
     <string name="unlock_set_unlock_mode_none" msgid="8467360084676871617">"Провести по экрану"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="7837270780919299289">"Графический ключ"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="3541326261341386690">"PIN-код"</string>
     <string name="unlock_set_unlock_mode_password" msgid="1203938057264146610">"Пароль"</string>
-    <string name="unlock_setup_wizard_fingerprint_details" msgid="7893457665921363009">"Включив блокировку экрана, выберите \"Настройки &gt; Безопасность\", чтобы отсканировать и сохранить отпечаток пальца."</string>
+    <string name="unlock_setup_wizard_fingerprint_details" msgid="7893457665921363009">"Включив блокировку экрана, выберите \"Настройки &gt; Безопасность\", чтобы отсканировать и сохранить отпечаток пальца."</string>
     <string name="unlock_disable_lock_title" msgid="1427036227416979120">"Отключить блокировку экрана"</string>
     <string name="unlock_disable_frp_warning_title" msgid="264008934468492550">"Отключить защиту устройства?"</string>
     <string name="unlock_disable_frp_warning_title_profile" msgid="5507136301904313583">"Отключить защиту профиля?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="8869767290771023461">"Без графического ключа не будет работать защита устройства."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="8212242533942400457">"Без графического ключа не будет работать защита устройства.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев будут удалены, поэтому вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_pin" msgid="586996206210265131">"Без PIN-кода не будет работать защита устройства."</string>
     <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="875669051899437197">"Без PIN-кода не будет работать защита устройства.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев будут удалены, поэтому вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_password" msgid="5420612686852555537">"Без пароля не будет работать защита устройства."</string>
     <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="2228159168587170445">"Без пароля не будет работать защита устройства.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев будут удалены, поэтому вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_unknown" msgid="1550718040483548220">"Без блокировки экрана не будет работать защита устройства."</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="6363091330281670692">"Без блокировки экрана не будет работать защита устройства.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев будут удалены, поэтому вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile" msgid="8682200103576359918">"Без графического ключа защита профиля работать не будет."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="3675154828957224316">"Без графического ключа защита профиля работать не будет.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев также будут удалены: вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_pin_profile" msgid="7790688070593867767">"Без PIN-кода защита профиля работать не будет."</string>
     <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile" msgid="4879321153584598940">"Без PIN-кода защита профиля работать не будет.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев также будут удалены: вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_password_profile" msgid="7569285520567674461">"Без пароля защита профиля работать не будет."</string>
     <string name="unlock_disable_frp_warning_content_password_fingerprint_profile" msgid="3527188316958917839">"Без пароля защита профиля работать не будет.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев также перестанут действовать: вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_content_unknown_profile" msgid="6984215718701688202">"Без блокировки экрана защита профиля работать не будет."</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="1962204059377724158">"Без блокировки экрана защита профиля работать не будет.<xliff:g id="EMPTY_LINE">
-
 </xliff:g>Сохраненные отпечатки пальцев будут удалены, поэтому вы больше не сможете снимать блокировку, совершать покупки и входить в приложения с их помощью."</string>
     <string name="unlock_disable_frp_warning_ok" msgid="7075138677177748705">"Да, отключить"</string>
     <string name="unlock_change_lock_pattern_title" msgid="2044092014872741130">"Изменить графический ключ разблокировки"</string>
@@ -522,40 +512,40 @@
     <string name="lockpassword_password_requires_digit" msgid="5140062925787058765">"Используйте хотя бы одну цифру"</string>
     <string name="lockpassword_password_requires_symbol" msgid="5944350865681510893">"Используйте хотя бы один символ"</string>
     <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="3121545900151618401">
-      <item quantity="one">Используйте хотя бы %d букву</item>
-      <item quantity="few">Используйте хотя бы %d буквы</item>
-      <item quantity="many">Используйте хотя бы %d букв</item>
-      <item quantity="other">Используйте хотя бы %d буквы</item>
+      <item quantity="one">Используйте хотя бы %d букву</item>
+      <item quantity="few">Используйте хотя бы %d буквы</item>
+      <item quantity="many">Используйте хотя бы %d букв</item>
+      <item quantity="other">Используйте хотя бы %d буквы</item>
     </plurals>
     <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5415008859853535577">
-      <item quantity="one">Используйте хотя бы %d строчную букву</item>
-      <item quantity="few">Используйте хотя бы %d строчные буквы</item>
-      <item quantity="many">Используйте хотя бы %d строчных букв</item>
-      <item quantity="other">Используйте хотя бы %d строчной буквы</item>
+      <item quantity="one">Используйте хотя бы %d строчную букву</item>
+      <item quantity="few">Используйте хотя бы %d строчные буквы</item>
+      <item quantity="many">Используйте хотя бы %d строчных букв</item>
+      <item quantity="other">Используйте хотя бы %d строчной буквы</item>
     </plurals>
     <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="1452012183267855761">
-      <item quantity="one">Используйте хотя бы %d заглавную букву</item>
-      <item quantity="few">Используйте хотя бы %d заглавные буквы</item>
-      <item quantity="many">Используйте хотя бы %d заглавных букв</item>
-      <item quantity="other">Используйте хотя бы %d заглавной буквы</item>
+      <item quantity="one">Используйте хотя бы %d заглавную букву</item>
+      <item quantity="few">Используйте хотя бы %d заглавные буквы</item>
+      <item quantity="many">Используйте хотя бы %d заглавных букв</item>
+      <item quantity="other">Используйте хотя бы %d заглавной буквы</item>
     </plurals>
     <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="5536275490534483515">
-      <item quantity="one">Используйте хотя бы %d цифру</item>
-      <item quantity="few">Используйте хотя бы %d цифры</item>
-      <item quantity="many">Используйте хотя бы %d цифр</item>
-      <item quantity="other">Используйте хотя бы %d цифры</item>
+      <item quantity="one">Используйте хотя бы %d цифру</item>
+      <item quantity="few">Используйте хотя бы %d цифры</item>
+      <item quantity="many">Используйте хотя бы %d цифр</item>
+      <item quantity="other">Используйте хотя бы %d цифры</item>
     </plurals>
     <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5132998285340017795">
-      <item quantity="one">Используйте хотя бы %d специальный символ</item>
-      <item quantity="few">Используйте хотя бы %d специальных символа</item>
-      <item quantity="many">Используйте хотя бы %d специальных символов</item>
-      <item quantity="other">Используйте хотя бы %d специального символа</item>
+      <item quantity="one">Используйте хотя бы %d специальный символ</item>
+      <item quantity="few">Используйте хотя бы %d специальных символа</item>
+      <item quantity="many">Используйте хотя бы %d специальных символов</item>
+      <item quantity="other">Используйте хотя бы %d специального символа</item>
     </plurals>
     <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="2778958281865593579">
-      <item quantity="one">Используйте хотя бы %d небуквенный символ</item>
-      <item quantity="few">Используйте хотя бы %d небуквенных символа</item>
-      <item quantity="many">Используйте хотя бы %d небуквенных символов</item>
-      <item quantity="other">Используйте хотя бы %d небуквенного символа</item>
+      <item quantity="one">Используйте хотя бы %d небуквенный символ</item>
+      <item quantity="few">Используйте хотя бы %d небуквенных символа</item>
+      <item quantity="many">Используйте хотя бы %d небуквенных символов</item>
+      <item quantity="other">Используйте хотя бы %d небуквенного символа</item>
     </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Использовать недавний пароль запрещено."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Нельзя использовать последовательность увеличивающихся, уменьшающихся или повторяющихся цифр"</string>
@@ -648,9 +638,9 @@
     <string name="wifi_display_options_forget" msgid="9119048225398894580">"Удалить"</string>
     <string name="wifi_display_options_done" msgid="5703116500357822557">"Готово"</string>
     <string name="wifi_display_options_name" msgid="4756080222307467898">"Название"</string>
-    <string name="wifi_band_24ghz" msgid="852929254171856911">"2,4 ГГц"</string>
-    <string name="wifi_band_5ghz" msgid="6433822023268515117">"5 ГГц"</string>
-    <string name="link_speed" msgid="8896664974117585555">"%1$d Мбит/с"</string>
+    <string name="wifi_band_24ghz" msgid="852929254171856911">"2,4 ГГц"</string>
+    <string name="wifi_band_5ghz" msgid="6433822023268515117">"5 ГГц"</string>
+    <string name="link_speed" msgid="8896664974117585555">"%1$d Мбит/с"</string>
     <string name="nfc_quick_toggle_title" msgid="6769159366307299004">"NFC"</string>
     <string name="nfc_quick_toggle_summary" product="tablet" msgid="8302974395787498915">"Разрешить обмен данными при совмещении планшета с другим устройством"</string>
     <string name="nfc_quick_toggle_summary" product="default" msgid="5237208142892767592">"Разрешить обмен данными при совмещении телефона с другим устройством"</string>
@@ -673,7 +663,7 @@
     <string name="wifi_starting" msgid="6732377932749942954">"Включение Wi-Fi…"</string>
     <string name="wifi_stopping" msgid="8952524572499500804">"Отключение Wi-Fi…"</string>
     <string name="wifi_error" msgid="3207971103917128179">"Ошибка"</string>
-    <string name="wifi_sap_no_channel_error" msgid="3108445199311817111">"Частота 5 ГГц недоступна в этой стране"</string>
+    <string name="wifi_sap_no_channel_error" msgid="3108445199311817111">"Частота 5 ГГц недоступна в этой стране"</string>
     <string name="wifi_in_airplane_mode" msgid="8652520421778203796">"Режим полета"</string>
     <string name="wifi_notify_open_networks" msgid="3755768188029653293">"Уведомления о сетях"</string>
     <string name="wifi_notify_open_networks_summary" msgid="3716818008370391253">"Сообщать о наличии общедоступных сетей"</string>
@@ -717,6 +707,8 @@
     <string name="wifi_more" msgid="3195296805089107950">"Ещё"</string>
     <string name="wifi_setup_wps" msgid="8128702488486283957">"Автонастройка (WPS)"</string>
     <string name="wifi_show_advanced" msgid="3409422789616520979">"Расширенные настройки"</string>
+    <string name="wifi_advanced_toggle_description_expanded" msgid="2380600578544493084">"Раскрывающее меню дополнительных настроек. Нажмите дважды, чтобы свернуть."</string>
+    <string name="wifi_advanced_toggle_description_collapsed" msgid="1463812308429197263">"Раскрывающее меню дополнительных настроек. Нажмите дважды, чтобы развернуть."</string>
     <string name="wifi_wps_setup_title" msgid="8207552222481570175">"Безопасная настройка Wi-Fi"</string>
     <string name="wifi_wps_setup_msg" msgid="315174329121275092">"Запуск WPS…"</string>
     <string name="wifi_wps_onstart_pbc" msgid="817003360936932340">"Нажмите кнопку \"Безопасная настройка Wi-Fi\" на маршрутизаторе. Она может называться WPS или быть отмечена этим символом:"</string>
@@ -749,8 +741,8 @@
     <string name="wifi_password" msgid="5948219759936151048">"Пароль"</string>
     <string name="wifi_show_password" msgid="6461249871236968884">"Показать пароль"</string>
     <string name="wifi_ap_band_config" msgid="1611826705989117930">"Диапазон частот Wi-Fi"</string>
-    <string name="wifi_ap_choose_2G" msgid="8724267386885036210">"2,4 ГГц"</string>
-    <string name="wifi_ap_choose_5G" msgid="8137061170937978040">"5 ГГц"</string>
+    <string name="wifi_ap_choose_2G" msgid="8724267386885036210">"2,4 ГГц"</string>
+    <string name="wifi_ap_choose_5G" msgid="8137061170937978040">"5 ГГц"</string>
     <string name="wifi_ip_settings" msgid="3359331401377059481">"Настройки IP"</string>
     <string name="wifi_shared" msgid="844142443226926070">"Поделиться с другими пользователями устройства"</string>
     <string name="wifi_unchanged" msgid="3410422020930397102">"(без изменений)"</string>
@@ -839,7 +831,7 @@
     <string name="wifi_tether_failed_subtext" msgid="1484941858530919002">"Ошибка подключения к точке доступа"</string>
     <string name="wifi_tether_configure_ap_text" msgid="7974681394041609308">"Настройка точки доступа Wi-Fi"</string>
     <string name="wifi_hotspot_configure_ap_text" msgid="5478614731464220432">"Настройка точки доступа Wi‑Fi"</string>
-    <string name="wifi_hotspot_configure_ap_text_summary" msgid="5618031116920832182">"Точка доступа AndroidAP WPA2 PSK"</string>
+    <string name="wifi_hotspot_configure_ap_text_summary" msgid="5618031116920832182">"Точка доступа AndroidAP WPA2 PSK"</string>
     <string name="wifi_tether_configure_subtext" msgid="7957547035983257748">"Сеть: <xliff:g id="NETWORK_SSID">%1$s</xliff:g>; шифрование: <xliff:g id="NETWORK_SECURITY">%2$s</xliff:g>"</string>
     <string name="wifi_tether_configure_ssid_default" msgid="8467525402622138547">"Хот-спот Android"</string>
     <string name="wifi_calling_settings_title" msgid="4102921303993404577">"Звонки по Wi-Fi"</string>
@@ -847,10 +839,19 @@
     <string name="wifi_calling_suggestion_summary" msgid="3765923249566552233">"Используйте Wi-Fi вместо мобильной сети"</string>
     <string name="wifi_calling_mode_title" msgid="2164073796253284289">"Приоритет сети"</string>
     <string name="wifi_calling_mode_dialog_title" msgid="8149690312199253909">"Звонки по Wi-Fi"</string>
+    <string name="wifi_calling_roaming_mode_title" msgid="1565039047187685115">"Настройки роуминга"</string>
+    <!-- no translation found for wifi_calling_roaming_mode_summary (8642014873060687717) -->
+    <skip />
+    <string name="wifi_calling_roaming_mode_dialog_title" msgid="7800926602662078576">"Настройки роуминга"</string>
   <string-array name="wifi_calling_mode_choices">
     <item msgid="2124257075906188844">"Приоритет у Wi-Fi"</item>
     <item msgid="5267397515594230396">"Приоритет у моб. сети"</item>
     <item msgid="3132912693346866895">"Только Wi-Fi"</item>
+  </string-array>
+  <string-array name="wifi_calling_mode_choices_v2">
+    <item msgid="742988808283756263">"Wi-Fi"</item>
+    <item msgid="122823150092396518">"Мобильные данные"</item>
+    <item msgid="2838022395783120596">"Только Wi-Fi"</item>
   </string-array>
   <string-array name="wifi_calling_mode_values">
     <item msgid="4799585830102342375">"2"</item>
@@ -861,13 +862,17 @@
     <item msgid="5782108782860004851">"Приоритет Wi-Fi"</item>
     <item msgid="9006785365352731433">"Приоритет моб. сети"</item>
   </string-array>
+  <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+    <item msgid="6132150507201243768">"Wi-Fi"</item>
+    <item msgid="2749029835484916851">"Мобильные данные"</item>
+  </string-array>
   <string-array name="wifi_calling_mode_values_without_wifi_only">
     <item msgid="2339246858001475047">"2"</item>
     <item msgid="6200207341126893791">"1"</item>
   </string-array>
     <string name="wifi_calling_off_explanation" msgid="2597566001655908391">"Когда функция \"Звонки по Wi-Fi\" включена, для исходящих вызовов может использоваться как Wi-Fi, так и мобильная сеть (в зависимости от ваших предпочтений и уровня сигнала). Прежде чем включить эту функцию, свяжитесь со своим оператором и уточните детали."</string>
     <string name="emergency_address_title" msgid="3571902448699714454">"Изменение адреса для экстренных случаев"</string>
-    <string name="emergency_address_summary" msgid="306028701568728126">"Адрес, по которому будут направлены экстренные службы в случае вызова по номеру 112 через сеть Wi-Fi"</string>
+    <string name="emergency_address_summary" msgid="306028701568728126">"Адрес, по которому будут направлены экстренные службы в случае вызова по номеру 112 через сеть Wi-Fi"</string>
     <string name="home_settings" msgid="212375129455718176">"Домашний экран"</string>
     <string name="display_settings_title" msgid="1708697328627382561">"Экран"</string>
     <string name="sound_settings" msgid="5534671337768745343">"Звук"</string>
@@ -916,10 +921,10 @@
     <string name="dock_sounds_enable_summary_off" product="tablet" msgid="4308252722466813560">"Не воспроизводить звук при установке или извлечении планшетного ПК из док-станции"</string>
     <string name="dock_sounds_enable_summary_off" product="default" msgid="2034927992716667672">"Не воспроизводить звук при установке или извлечении телефона"</string>
     <string name="account_settings" msgid="6403589284618783461">"Аккаунты"</string>
-    <string name="accessibility_category_work" msgid="4339262969083355720">"Аккаунты в рабочем профиле – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
+    <string name="accessibility_category_work" msgid="4339262969083355720">"Аккаунты в рабочем профиле – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
     <string name="accessibility_category_personal" msgid="1263518850905945594">"Аккаунты в личном профиле"</string>
-    <string name="accessibility_work_account_title" msgid="1231830766637939527">"Рабочий аккаунт – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
-    <string name="accessibility_personal_account_title" msgid="2169071663029067826">"Личный аккаунт – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
+    <string name="accessibility_work_account_title" msgid="1231830766637939527">"Рабочий аккаунт – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
+    <string name="accessibility_personal_account_title" msgid="2169071663029067826">"Личный аккаунт – <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
     <string name="search_settings" msgid="1910951467596035063">"Поиск"</string>
     <string name="search_settings_summary" msgid="9205656546570654169">"Настроить параметры и управлять историей поиска"</string>
     <string name="display_settings" msgid="7965901687241669598">"Экран"</string>
@@ -934,7 +939,7 @@
     <string name="auto_brightness_title" msgid="6341042882350279391">"Адаптивная регулировка"</string>
     <string name="auto_brightness_summary" msgid="1799041158760605375">"Менять яркость с учетом уровня освещенности"</string>
     <string name="night_display_title" msgid="2626451512200357686">"Ночной режим"</string>
-    <string name="night_display_text" msgid="4535302797673277668">"В ночном режиме экран приобретает красноватый оттенок. Это снижает напряжение глаз при тусклом свете и может помочь вам быстрее заснуть."</string>
+    <string name="night_display_text" msgid="1837277457033025056">"В ночном режиме экран приобретает желтоватый оттенок. Это снижает напряжение глаз при тусклом свете и может помочь вам быстрее заснуть."</string>
     <string name="night_display_category_schedule" msgid="2044072617637348966">"Расписание"</string>
     <string name="night_display_category_status" msgid="1952928783124400330">"Статус"</string>
     <string name="night_display_auto_mode_title" msgid="8046314360381608455">"Включать автоматически"</string>
@@ -943,14 +948,14 @@
     <string name="night_display_auto_mode_twilight" msgid="2123345097508167094">"От заката до рассвета"</string>
     <string name="night_display_start_time_title" msgid="8918016772613689584">"Время включения"</string>
     <string name="night_display_end_time_title" msgid="8286061578083519350">"Время отключения"</string>
-    <string name="night_display_summary_off" msgid="1792750041697946539">"Отключен/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
-    <string name="night_display_summary_off_auto_mode_never" msgid="8865054549719499274">"Не включать автоматически"</string>
-    <string name="night_display_summary_off_auto_mode_custom" msgid="4962295097132112885">"Включать автоматически в <xliff:g id="ID_1">%1$s</xliff:g>"</string>
-    <string name="night_display_summary_off_auto_mode_twilight" msgid="5520577516590422267">"Включать автоматически на закате"</string>
-    <string name="night_display_summary_on" msgid="1355713529996456744">"Включен/<xliff:g id="ID_1">%1$s</xliff:g>"</string>
-    <string name="night_display_summary_on_auto_mode_never" msgid="44005841579902825">"Не отключать автоматически"</string>
-    <string name="night_display_summary_on_auto_mode_custom" msgid="4350556852471560173">"Отключать автоматически в <xliff:g id="ID_1">%1$s</xliff:g>"</string>
-    <string name="night_display_summary_on_auto_mode_twilight" msgid="6122152828111119250">"Отключать автоматически на рассвете"</string>
+    <string name="night_display_summary_off" msgid="7009821232380000786">"Отключено (<xliff:g id="ID_1">%1$s</xliff:g>)"</string>
+    <string name="night_display_summary_off_auto_mode_never" msgid="2305501561697289620">"Не включать автоматически"</string>
+    <string name="night_display_summary_off_auto_mode_custom" msgid="1548073080728058384">"Включать автоматически в <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_off_auto_mode_twilight" msgid="2737328390752018845">"Включать автоматически на закате"</string>
+    <string name="night_display_summary_on" msgid="6626224414971753417">"Включено (<xliff:g id="ID_1">%1$s</xliff:g>)"</string>
+    <string name="night_display_summary_on_auto_mode_never" msgid="5217396859715040056">"Не отключать автоматически"</string>
+    <string name="night_display_summary_on_auto_mode_custom" msgid="887702685252504739">"Отключать автоматически в <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="night_display_summary_on_auto_mode_twilight" msgid="8574989770628425398">"Отключать автоматически на рассвете"</string>
     <string name="screen_timeout" msgid="4351334843529712571">"Спящий режим"</string>
     <string name="screen_timeout_title" msgid="5130038655092628247">"Отключение экрана"</string>
     <string name="screen_timeout_summary" msgid="327761329263064327">"После <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> бездействия"</string>
@@ -1002,7 +1007,7 @@
     <string name="sim_change_data_title" msgid="294357201685244532">"SIM-карта для передачи данных"</string>
     <string name="sim_change_data_message" msgid="1313940695939674633">"Использовать для передачи данных по мобильной сети эту SIM-карту: <xliff:g id="NEW_SIM">%1$s</xliff:g> (вместо <xliff:g id="OLD_SIM">%2$s</xliff:g>)?"</string>
     <string name="sim_preferred_title" msgid="5567909634636045268">"Изменить основную SIM-карту?"</string>
-    <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> – единственная SIM-карта в устройстве. Использовать ее для звонков, отправки SMS-сообщений и передачи мобильных данных?"</string>
+    <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> – единственная SIM-карта в устройстве. Использовать ее для звонков, отправки SMS-сообщений и передачи мобильных данных?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"Неверный PIN-код. Обратитесь к оператору связи, чтобы разблокировать SIM-карту."</string>
     <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
       <item quantity="one">Неверный PIN-код. Осталась <xliff:g id="NUMBER_1">%d</xliff:g> попытка. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
@@ -1017,7 +1022,7 @@
     <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
     <string name="firmware_version" msgid="4801135784886859972">"Версия Android"</string>
     <string name="security_patch" msgid="8438384045870296634">"Последнее обновление системы безопасности"</string>
-    <string name="model_number" msgid="3765737700545384794">"Модель"</string>
+    <string name="model_info" msgid="1952009518045740889">"Модель"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"Идентификатор оборудования"</string>
     <string name="baseband_version" msgid="1848990160763524801">"Прошивка модуля связи"</string>
     <string name="kernel_version" msgid="9192574954196167602">"Версия ядра"</string>
@@ -1122,7 +1127,7 @@
     <string name="storage_internal_title" msgid="690771193137801021">"Хранилище устройства"</string>
     <string name="storage_external_title" msgid="3433462910096848696">"Съемный накопитель"</string>
     <string name="storage_volume_summary" msgid="7023441974367853372">"Использовано <xliff:g id="USED">%1$s</xliff:g> из <xliff:g id="TOTAL">%2$s</xliff:g>"</string>
-    <string name="storage_size_large" msgid="5691585991420946254">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small></string>
+    <string name="storage_size_large" msgid="5691585991420946254">"<xliff:g id="NUMBER">^1</xliff:g>"<small><small>" <xliff:g id="UNIT">^2</xliff:g>"</small></small></string>
     <string name="storage_volume_used" msgid="1303803057698959872">"использовано из <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
     <string name="storage_volume_used_total" msgid="6113121714019000244">"всего использовано из <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
     <string name="storage_mount_success" msgid="687641090137253647">"Подключено: <xliff:g id="NAME">%1$s</xliff:g>"</string>
@@ -1148,8 +1153,8 @@
     <string name="storage_detail_other" msgid="8404938385075638238">"Другое"</string>
     <string name="storage_detail_system" msgid="4629506366064709687">"Система"</string>
     <string name="storage_detail_explore" msgid="7911344011431568294">"<xliff:g id="NAME">^1</xliff:g>"</string>
-    <string name="storage_detail_dialog_other" msgid="5343550781234524040">"Другое: общие файлы, сохраненные приложениями, файлы, скачанные из Интернета или по Bluetooth, служебные файлы Android и т. д.\n\nЧтобы просмотреть содержимое устройства (<xliff:g id="NAME">^1</xliff:g>), нажмите \"Открыть\"."</string>
-    <string name="storage_detail_dialog_system" msgid="3058775028564971102">"Система: файлы, используемые для работы операционной системой Android.\n\nОни недоступны для просмотра."</string>
+    <string name="storage_detail_dialog_other" msgid="8907101974576694793">"В разделе \"Другое\" находятся файлы с общим доступом, сохраненные приложениями, контент, скачанный из Интернета или по Bluetooth, файлы Android и т. д.\n\nЧтобы узнать, какие данные есть на этом устройстве (<xliff:g id="NAME">^1</xliff:g>), нажмите \"Обзор\"."</string>
+    <string name="storage_detail_dialog_system" msgid="3417679651116003900">"В разделе \"Система\" находятся файлы, которые Android не может показать отдельно."</string>
     <string name="storage_detail_dialog_user" msgid="1675756743326079688">"<xliff:g id="USER_0">^1</xliff:g>, возможно, хранит на запоминающем устройстве фотографии, музыку, приложения и другие данные общим объемом <xliff:g id="SIZE">^2</xliff:g>. \n\nЧтобы проверить это, войдите в аккаунт пользователя <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="5085400514028585772">"Настройте карту \"<xliff:g id="NAME">^1</xliff:g>\""</string>
     <string name="storage_wizard_init_external_title" msgid="4867326438945303598">"Портативный носитель"</string>
@@ -1174,7 +1179,7 @@
     <string name="storage_wizard_migrate_details" msgid="3709728824651136227">"Во время переноса:\n• Не извлекайте устройство \"<xliff:g id="NAME">^1</xliff:g>\".\n• Учтите, что некоторые приложения будут работать неправильно.\n• Не допускайте разрядки аккумулятора."</string>
     <string name="storage_wizard_ready_title" msgid="5381632402953258267">"Устройство \"<xliff:g id="NAME">^1</xliff:g>\" готово к работе"</string>
     <string name="storage_wizard_ready_external_body" msgid="2879508114260597474">"Теперь на устройстве \"<xliff:g id="NAME">^1</xliff:g>\" можно сохранять фотографии и другие файлы."</string>
-    <string name="storage_wizard_ready_internal_body" msgid="122532674037860197">"Ваша карта \"<xliff:g id="NAME">^1</xliff:g>\" готова к работе.\n\nЧтобы перенести на нее фотографии, данные приложений и другие файлы, нажмите \"Настройки &gt; Память\"."</string>
+    <string name="storage_wizard_ready_internal_body" msgid="122532674037860197">"Ваша карта \"<xliff:g id="NAME">^1</xliff:g>\" готова к работе.\n\nЧтобы перенести на нее фотографии, данные приложений и другие файлы, нажмите \"Настройки &gt; Память\"."</string>
     <string name="storage_wizard_move_confirm_title" msgid="292782012677890250">"Перенесите приложение \"<xliff:g id="APP">^1</xliff:g>\""</string>
     <string name="storage_wizard_move_confirm_body" msgid="5176432115206478941">"Перенос приложения \"<xliff:g id="APP">^1</xliff:g>\" и его данных на карту \"<xliff:g id="NAME_0">^2</xliff:g>\" займет несколько секунд.\n\nУчтите, что пользоваться приложением и извлекать карту \"<xliff:g id="NAME_1">^2</xliff:g>\" во время переноса нельзя."</string>
     <string name="storage_wizard_move_progress_title" msgid="4443920302548035674">"Перенос приложения \"<xliff:g id="APP">^1</xliff:g>\"…"</string>
@@ -1347,7 +1352,7 @@
     <string name="terms_title" msgid="7697580845616764642">"Условия использования"</string>
     <string name="webview_license_title" msgid="2813507464175738967">"Системная лицензия WebView"</string>
     <string name="wallpaper_attributions" msgid="3645880512943433928">"Обои"</string>
-    <string name="wallpaper_attributions_values" msgid="2996183537914690469">"Фотографии со спутника:\n© CNES 2014/Astrium, DigitalGlobe, Bluesky"</string>
+    <string name="wallpaper_attributions_values" msgid="2996183537914690469">"Фотографии со спутника:\n© CNES 2014/Astrium, DigitalGlobe, Bluesky"</string>
     <string name="settings_manual_activity_title" msgid="8133150693616006051">"Руководство пользователя"</string>
     <string name="settings_manual_activity_unavailable" msgid="4752403782883814898">"Не удалось загрузить руководство пользователя."</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"Лицензии открытого ПО"</string>
@@ -1409,7 +1414,7 @@
     <string name="lockpattern_settings_choose_lock_pattern" msgid="1652352830005653447">"Установить ключ"</string>
     <string name="lockpattern_settings_change_lock_pattern" msgid="1123908306116495545">"Изменить ключ"</string>
     <string name="lockpattern_settings_help_how_to_record" msgid="2614673439060830433">"Как начертить графический ключ разблокировки"</string>
-    <string name="lockpattern_too_many_failed_confirmation_attempts" msgid="6909161623701848863">"Слишком много неудачных попыток подряд. Повторите через <xliff:g id="NUMBER">%d</xliff:g> сек."</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts" msgid="6909161623701848863">"Слишком много неудачных попыток подряд. Повторите через <xliff:g id="NUMBER">%d</xliff:g> сек."</string>
     <string name="activity_not_found" msgid="5551664692991605325">"Приложение не установлено на телефоне."</string>
     <string name="lock_settings_profile_title" msgid="2121876391814535295">"Защита рабочего профиля"</string>
     <string name="lock_settings_profile_screen_lock_title" msgid="3334747927367115256">"Блокировка экрана рабочего профиля"</string>
@@ -1428,7 +1433,7 @@
     <string name="applications_settings_header" msgid="1014813055054356646">"Настройки приложения"</string>
     <string name="install_applications" msgid="4872012136210802181">"Неизвестные источники"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"Разрешить из всех источников"</string>
-    <string name="install_unknown_applications_title" msgid="663831043139080992">"Устанавливать приложения не только из Google Play"</string>
+    <string name="install_unknown_applications_title" msgid="663831043139080992">"Устанавливать приложения не только из Google Play"</string>
     <string name="install_unknown_applications" msgid="176855644862942064">"Разрешить установку приложений из неизвестных источников"</string>
     <string name="install_all_warning" product="tablet" msgid="3263360446508268880">"Ваши личные данные и данные планшетного ПК более уязвимы для атак приложений из неизвестных источников. Вы соглашаетесь с тем, что несете полную ответственность за любой ущерб, нанесенный планшетному ПК, и потерю данных, связанные с использованием этих приложений."</string>
     <string name="install_all_warning" product="default" msgid="8113734576826384682">"Ваши личные данные и данные телефона более уязвимы для атак приложений из неизвестных источников. Вы соглашаетесь с тем, что несете полную ответственность за любой ущерб, нанесенный телефону, и потерю данных, связанные с использованием этих приложений."</string>
@@ -1444,10 +1449,10 @@
     <string name="clear_cache_btn_text" msgid="5756314834291116325">"Очистить кеш"</string>
     <string name="cache_size_label" msgid="7505481393108282913">"Кеш"</string>
     <plurals name="uri_permissions_text" formatted="false" msgid="3983110543017963732">
-      <item quantity="one">%d объект</item>
-      <item quantity="few">%d объекта</item>
-      <item quantity="many">%d объектов</item>
-      <item quantity="other">%d объекта</item>
+      <item quantity="one">%d объект</item>
+      <item quantity="few">%d объекта</item>
+      <item quantity="many">%d объектов</item>
+      <item quantity="other">%d объекта</item>
     </plurals>
     <string name="clear_uri_btn_text" msgid="8575655132961012158">"Закрыть доступ"</string>
     <string name="controls_label" msgid="7611113077086853799">"Элементы управления"</string>
@@ -1654,7 +1659,7 @@
     <string name="user_dict_settings_edit_dialog_title" msgid="8967476444840548674">"Изменение слова"</string>
     <string name="user_dict_settings_context_menu_edit_title" msgid="2210564879320004837">"Изменить"</string>
     <string name="user_dict_settings_context_menu_delete_title" msgid="9140703913776549054">"Удалить"</string>
-    <string name="user_dict_settings_empty_text" msgid="1971969756133074922">"В пользовательском словаре пока ничего нет. Добавлять слова можно с помощью кнопки \"Добавить (+)\"."</string>
+    <string name="user_dict_settings_empty_text" msgid="1971969756133074922">"В пользовательском словаре пока ничего нет. Добавлять слова можно с помощью кнопки \"Добавить (+)\"."</string>
     <string name="user_dict_settings_all_languages" msgid="6742000040975959247">"Для всех языков"</string>
     <string name="user_dict_settings_more_languages" msgid="7316375944684977910">"Другой язык"</string>
     <string name="testing" msgid="6584352735303604146">"Проверка"</string>
@@ -1686,9 +1691,9 @@
     <string name="battery_history_hours" msgid="7525170329826274999">"<xliff:g id="HOURS">%1$d</xliff:g> ч. <xliff:g id="MINUTES">%2$d</xliff:g> м. <xliff:g id="SECONDS">%3$d</xliff:g> с."</string>
     <string name="battery_history_minutes" msgid="1467775596084148610">"<xliff:g id="MINUTES">%1$d</xliff:g> м. <xliff:g id="SECONDS">%2$d</xliff:g> с."</string>
     <string name="battery_history_seconds" msgid="4283492130945761685">"<xliff:g id="SECONDS">%1$d</xliff:g> с."</string>
-    <string name="battery_history_days_no_seconds" msgid="703063770554334710">"<xliff:g id="DAYS">%1$d</xliff:g> дн. <xliff:g id="HOURS">%2$d</xliff:g> ч. <xliff:g id="MINUTES">%3$d</xliff:g> мин."</string>
-    <string name="battery_history_hours_no_seconds" msgid="663342892615646712">"<xliff:g id="HOURS">%1$d</xliff:g> ч. <xliff:g id="MINUTES">%2$d</xliff:g> мин."</string>
-    <string name="battery_history_minutes_no_seconds" msgid="7780294302606853082">"<xliff:g id="MINUTES">%1$d</xliff:g> мин."</string>
+    <string name="battery_history_days_no_seconds" msgid="703063770554334710">"<xliff:g id="DAYS">%1$d</xliff:g> дн. <xliff:g id="HOURS">%2$d</xliff:g> ч. <xliff:g id="MINUTES">%3$d</xliff:g> мин."</string>
+    <string name="battery_history_hours_no_seconds" msgid="663342892615646712">"<xliff:g id="HOURS">%1$d</xliff:g> ч. <xliff:g id="MINUTES">%2$d</xliff:g> мин."</string>
+    <string name="battery_history_minutes_no_seconds" msgid="7780294302606853082">"<xliff:g id="MINUTES">%1$d</xliff:g> мин."</string>
     <string name="usage_stats_label" msgid="5890846333487083609">"Статистика использования"</string>
     <string name="testing_usage_stats" msgid="7823048598893937339">"Статистика использования"</string>
     <string name="display_order_text" msgid="8592776965827565271">"Упорядочить по:"</string>
@@ -1728,34 +1733,34 @@
     <string name="enable_quick_setting" msgid="2366999897816894536">"Показывать в быстрых настройках"</string>
     <string name="daltonizer_type" msgid="1124178250809091080">"Режим коррекции"</string>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay" formatted="false" msgid="7340347830562315800">
-      <item quantity="one">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="few">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="many">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="other">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="one">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="few">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="many">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="other">Сверхкраткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay" formatted="false" msgid="5589565607652364932">
-      <item quantity="one">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="few">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="many">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="other">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="one">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="few">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="many">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="other">Очень короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_short_delay" formatted="false" msgid="5887754135102768400">
-      <item quantity="one">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="few">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="many">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="other">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="one">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="few">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="many">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="other">Короткая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_long_delay" formatted="false" msgid="6340683412750219405">
-      <item quantity="one">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="few">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="many">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="other">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="one">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="few">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="many">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="other">Долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
     </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay" formatted="false" msgid="3503199424330634970">
-      <item quantity="one">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="few">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="many">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
-      <item quantity="other">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="one">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="few">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="many">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
+      <item quantity="other">Очень долгая задержка (<xliff:g id="CLICK_DELAY_LABEL_1">%1$d</xliff:g> мсек.)</item>
     </plurals>
     <string name="accessibility_menu_item_settings" msgid="3344942964710773365">"Настройки"</string>
     <string name="accessibility_feature_state_on" msgid="2864292320042673806">"Включено"</string>
@@ -1839,7 +1844,7 @@
     <string name="power_usage_summary_title" msgid="7190304207330319919">"Батарея"</string>
     <string name="power_usage_summary" msgid="7237084831082848168">"На что расходуется заряд батареи"</string>
     <string name="power_usage_not_available" msgid="3109326074656512387">"Нет данных."</string>
-    <string name="power_usage_level_and_status" msgid="7449847570973811784">"<xliff:g id="LEVEL">%1$s</xliff:g> – <xliff:g id="STATUS">%2$s</xliff:g>"</string>
+    <string name="power_usage_level_and_status" msgid="7449847570973811784">"<xliff:g id="LEVEL">%1$s</xliff:g> – <xliff:g id="STATUS">%2$s</xliff:g>"</string>
     <string name="power_discharge_remaining" msgid="4925678997049911808">"Батарея будет разряжена через <xliff:g id="REMAIN">%1$s</xliff:g>"</string>
     <string name="power_charge_remaining" msgid="6132074970943913135">"Батарея будет заряжена через <xliff:g id="UNTIL_CHARGED">%1$s</xliff:g>"</string>
     <string name="power_usage_list_summary" msgid="2409288197839512482">"Использование с момента полной зарядки"</string>
@@ -1883,8 +1888,8 @@
     <string name="usage_type_wifi_running" msgid="3134357198266380400">"Модуль Wi-Fi включен"</string>
     <string name="usage_type_phone" product="tablet" msgid="262638572890253393">"Планшетный ПК"</string>
     <string name="usage_type_phone" product="default" msgid="9108247984998041853">"Телефон"</string>
-    <string name="usage_type_data_send" msgid="8971710128438365919">"Данные отправлены по моб. сети"</string>
-    <string name="usage_type_data_recv" msgid="5468564329333954445">"Данные получены по моб. сети"</string>
+    <string name="usage_type_data_send" msgid="8971710128438365919">"Данные отправлены по моб. сети"</string>
+    <string name="usage_type_data_recv" msgid="5468564329333954445">"Данные получены по моб. сети"</string>
     <string name="usage_type_radio_active" msgid="1732647857619420121">"Время работы приемопередатчика"</string>
     <string name="usage_type_data_wifi_send" msgid="1847552143597396162">"Данные отправлены по сети Wi‑Fi"</string>
     <string name="usage_type_data_wifi_recv" msgid="5678475911549183829">"Данные получены по сети Wi‑Fi"</string>
@@ -1925,7 +1930,7 @@
     <string name="battery_desc_unaccounted" msgid="7404256448541818019">"Неучтенный расход заряда батареи"</string>
     <string name="battery_msg_unaccounted" msgid="1963583522633067961">"Данные о расходе заряда батареи отдельными приложениями являются приблизительными и не включают всех возможных потребителей энергии. Этот показатель энергопотребления соответствует разнице между расчетным энергопотреблением и фактическим расходом заряда батареи."</string>
     <string name="battery_desc_overcounted" msgid="5481865509489228603">"Преувеличенное энергопотребление"</string>
-    <string name="mah" msgid="95245196971239711">"<xliff:g id="NUMBER">%d</xliff:g> мА·ч"</string>
+    <string name="mah" msgid="95245196971239711">"<xliff:g id="NUMBER">%d</xliff:g> мА·ч"</string>
     <string name="menu_stats_unplugged" msgid="8296577130840261624">"<xliff:g id="UNPLUGGED">%1$s</xliff:g> с момента отключения от питания"</string>
     <string name="menu_stats_last_unplugged" msgid="5922246077592434526">"С последнего отключения <xliff:g id="UNPLUGGED">%1$s</xliff:g>"</string>
     <string name="menu_stats_total" msgid="8973377864854807854">"Всего"</string>
@@ -1945,7 +1950,7 @@
     <string name="process_stats_type_background" msgid="3934992858120683459">"Фоновые"</string>
     <string name="process_stats_type_foreground" msgid="7713118254089580536">"Активные"</string>
     <string name="process_stats_type_cached" msgid="6314925846944806511">"Кешированные"</string>
-    <string name="process_stats_os_label" msgid="4813434110442733392">"ОС Android"</string>
+    <string name="process_stats_os_label" msgid="4813434110442733392">"ОС Android"</string>
     <string name="process_stats_os_native" msgid="5322428494231768472">"Собственные процессы"</string>
     <string name="process_stats_os_kernel" msgid="1938523592369780924">"Ядро"</string>
     <string name="process_stats_os_zram" msgid="677138324651671575">"Z-Ram"</string>
@@ -1965,10 +1970,10 @@
     <string name="mem_use_zram_type" msgid="9087217476795358232">"Замена ZRam"</string>
     <string name="mem_use_free_type" msgid="717708548454880840">"Свободно"</string>
     <string name="mem_use_total" msgid="6308786055749777934">"Итого"</string>
-    <string name="menu_duration_3h" msgid="4714866438374738385">"3 часа"</string>
-    <string name="menu_duration_6h" msgid="1940846763432184132">"6 часов"</string>
-    <string name="menu_duration_12h" msgid="7890465404584356294">"12 часов"</string>
-    <string name="menu_duration_1d" msgid="3393631127622285458">"1 день"</string>
+    <string name="menu_duration_3h" msgid="4714866438374738385">"3 часа"</string>
+    <string name="menu_duration_6h" msgid="1940846763432184132">"6 часов"</string>
+    <string name="menu_duration_12h" msgid="7890465404584356294">"12 часов"</string>
+    <string name="menu_duration_1d" msgid="3393631127622285458">"1 день"</string>
     <string name="menu_show_system" msgid="8864603400415567635">"Показать системные процессы"</string>
     <string name="menu_hide_system" msgid="4106826741703745733">"Скрыть системные процессы"</string>
     <string name="menu_show_percentage" msgid="4717204046118199806">"Показать в процентах"</string>
@@ -2104,7 +2109,7 @@
     <string name="wifi_setup_status_connecting" msgid="4971421484401530740">"Подключение..."</string>
     <string name="wifi_setup_status_proceed_to_next" msgid="6708250000342940031">"Далее"</string>
     <string name="wifi_setup_status_eap_not_supported" msgid="6796317704783144190">"EAP не поддерживается."</string>
-    <string name="wifi_setup_eap_not_supported" msgid="6812710317883658843">"Во время установки нельзя настроить подключение к сети Wi-Fi с защитой EAP. Вы можете сделать это позже в меню \"Настройки &gt; Беспроводные сети\"."</string>
+    <string name="wifi_setup_eap_not_supported" msgid="6812710317883658843">"Во время установки нельзя настроить подключение к сети Wi-Fi с защитой EAP. Вы можете сделать это позже в меню \"Настройки &gt; Беспроводные сети\"."</string>
     <string name="wifi_setup_description_connecting" msgid="2793554932006756795">"Подключение может занять несколько минут..."</string>
     <string name="wifi_setup_description_connected" msgid="6649168170073219153">"Нажмите "<b>"Далее"</b>", чтобы продолжить настройку.\n\nНажмите "<b>"Назад"</b>", чтобы подключиться к другой сети Wi‑Fi."</string>
     <string name="accessibility_sync_enabled" msgid="558480439730263116">"Синхронизация включена"</string>
@@ -2367,13 +2372,13 @@
     <string name="user_need_lock_message" msgid="5879715064416886811">"Чтобы создать профиль с ограниченным доступом, необходимо предварительно настроить блокировку экрана для защиты приложений и личных данных"</string>
     <string name="user_set_lock_button" msgid="8311219392856626841">"Включить блокировку"</string>
     <string name="user_summary_not_set_up" msgid="8778205026866794909">"Не настроено"</string>
-    <string name="user_summary_restricted_not_set_up" msgid="1628116001964325544">"Не настроено – профиль с ограниченным доступом"</string>
+    <string name="user_summary_restricted_not_set_up" msgid="1628116001964325544">"Не настроено – профиль с ограниченным доступом"</string>
     <string name="user_summary_managed_profile_not_set_up" msgid="1659125858619760573">"Рабочий профиль не настроен"</string>
     <string name="user_admin" msgid="993402590002400782">"Администратор"</string>
     <string name="user_you" msgid="1639158809315025986">"Вы (<xliff:g id="NAME">%s</xliff:g>)"</string>
     <string name="user_nickname" msgid="5148818000228994488">"Псевдоним"</string>
     <string name="user_add_user_type_title" msgid="2146438670792322349">"Добавление"</string>
-    <string name="user_add_max_count" msgid="5405885348463433157">"Вы можете добавить до <xliff:g id="USER_COUNT">%1$d</xliff:g> пользователей"</string>
+    <string name="user_add_max_count" msgid="5405885348463433157">"Вы можете добавить до <xliff:g id="USER_COUNT">%1$d</xliff:g> пользователей"</string>
     <string name="user_add_user_item_summary" msgid="4702776187132008661">"У пользователей есть свои приложения и контент"</string>
     <string name="user_add_profile_item_summary" msgid="5931663986889138941">"Вы можете ограничить доступ к приложениям и контенту из вашего аккаунта"</string>
     <string name="user_add_user_item_title" msgid="8212199632466198969">"Добавить пользователя"</string>
@@ -2433,7 +2438,7 @@
     <string name="nfc_payment_no_apps" msgid="5477904979148086424">"Оплачивайте покупки в магазинах с помощью телефона"</string>
     <string name="nfc_payment_default" msgid="8648420259219150395">"Основное средство оплаты"</string>
     <string name="nfc_payment_default_not_set" msgid="7485060884228447765">"Не выбрано"</string>
-    <string name="nfc_payment_app_and_desc" msgid="7942415346564794258">"<xliff:g id="APP">%1$s</xliff:g> – <xliff:g id="DESCRIPTION">%2$s</xliff:g>"</string>
+    <string name="nfc_payment_app_and_desc" msgid="7942415346564794258">"<xliff:g id="APP">%1$s</xliff:g> – <xliff:g id="DESCRIPTION">%2$s</xliff:g>"</string>
     <string name="nfc_payment_use_default" msgid="3234730182120288495">"Использовать приложение по умолчанию"</string>
     <string name="nfc_payment_favor_default" msgid="5743781166099608372">"Всегда"</string>
     <string name="nfc_payment_favor_open" msgid="1923314062109977944">"Кроме случаев, когда открыто другое платежное приложение"</string>
@@ -2467,7 +2472,7 @@
     <string name="cell_broadcast_settings" msgid="2451014351355183338">"Уведомления о чрезвычайных ситуациях"</string>
     <string name="network_operators_settings" msgid="2583178259504630435">"Операторы связи"</string>
     <string name="access_point_names" msgid="1381602020438634481">"Названия точек доступа"</string>
-    <string name="enhanced_4g_lte_mode_title" msgid="5808043757309522392">"Режим 4G LTE"</string>
+    <string name="enhanced_4g_lte_mode_title" msgid="5808043757309522392">"Режим 4G LTE"</string>
     <string name="enhanced_4g_lte_mode_summary" msgid="1376589643017218924">"Использование данных LTE для улучшения голосовой связи (рекомендуется)"</string>
     <string name="preferred_network_type_title" msgid="3431041717309776341">"Тип сети"</string>
     <string name="preferred_network_type_summary" msgid="6564884693884755019">"LTE (рекомендуется)"</string>
@@ -2527,13 +2532,19 @@
     <string name="preferred_network_offload_header" msgid="2321173571529106767">"Не показывать имя сети"</string>
     <string name="preferred_network_offload_footer" msgid="5857279426054744020">"Параметр \"Не показывать имя сети\" делает невозможным доступ третьих лиц к данным о сети."</string>
     <string name="preferred_network_offload_popup" msgid="2252915199889604600">"Параметр \"Не показывать имя сети\" делает невозможным автоматическое подключение к скрытым сетям."</string>
-    <string name="sim_signal_strength" msgid="9144010043784767984">"<xliff:g id="DBM">%1$d</xliff:g> дБмВт, asu: <xliff:g id="ASU">%2$d</xliff:g>"</string>
+    <string name="sim_signal_strength" msgid="9144010043784767984">"<xliff:g id="DBM">%1$d</xliff:g> дБмВт, asu: <xliff:g id="ASU">%2$d</xliff:g>"</string>
     <string name="sim_notification_title" msgid="6272913297433198340">"SIM-карты заменены"</string>
     <string name="sim_notification_summary" msgid="8858043655706669772">"Нажмите, чтобы настроить"</string>
     <string name="sim_pref_divider" msgid="6778907671867621874">"Использование SIM-карт"</string>
     <string name="sim_calls_ask_first_prefs_title" msgid="7941299533514115976">"Всегда спрашивать"</string>
     <string name="sim_selection_required_pref" msgid="3446721423206414652">"Выберите SIM-карту"</string>
     <string name="dashboard_title" msgid="5453710313046681820">"Настройки"</string>
+    <plurals name="settings_suggestion_header_summary_hidden_items" formatted="false" msgid="5597356221942118048">
+      <item quantity="one">Показать %d скрытый объект</item>
+      <item quantity="few">Показать %d скрытых объекта</item>
+      <item quantity="many">Показать %d скрытых объектов</item>
+      <item quantity="other">Показать %d скрытых объекта</item>
+    </plurals>
     <string name="search_results_title" msgid="1796252422574886932">"Настройки"</string>
     <string name="search_menu" msgid="6283419262313758339">"Поиск настроек"</string>
     <string name="query_hint_text" msgid="3350700807437473939">"Поиск настроек"</string>
@@ -2543,7 +2554,7 @@
     <string name="keywords_more_default_sms_app" msgid="2265154063220360784">"сообщение, обмен сообщениями, текст, SMS"</string>
     <string name="keywords_more_mobile_networks" msgid="1538131503712402851">"мобильный, сотовый оператор, беспроводной, мобильный Интернет, 4g, 3g, 2g, lte"</string>
     <string name="keywords_wifi_calling" msgid="1784064367330122679">"wifi, wi-fi, вызов, звонок"</string>
-    <string name="keywords_home" msgid="3626170808219458848">"Google Старт"</string>
+    <string name="keywords_home" msgid="3626170808219458848">"Google Старт"</string>
     <string name="keywords_display" msgid="8910345814565493016">"экран, сенсорный экран"</string>
     <string name="keywords_display_brightness_level" msgid="3891383826236015854">"яркость, сенсорный экран, батарея"</string>
     <string name="keywords_display_auto_brightness" msgid="3325150824507953765">"яркость, сенсорный экран, батарея"</string>
@@ -2590,6 +2601,8 @@
     <string name="status_tag_not_writable" msgid="2511611539977682175">"Нельзя записать данные на эту NFC-метку. Выберите другую."</string>
     <string name="default_sound" msgid="8821684447333687810">"Мелодия по умолчанию"</string>
     <string name="sound_settings_summary" msgid="4100853606668287965">"Громкость звонка: <xliff:g id="PERCENTAGE">%1$s</xliff:g>"</string>
+    <string name="sound_settings_summary_vibrate" msgid="1869282574422220096">"Включен вибросигнал"</string>
+    <string name="sound_settings_summary_silent" msgid="5074529767435584948">"Включен режим без звука"</string>
     <string name="sound_settings_example_summary" msgid="2404914514266523165">"Громкость звонка: 80%"</string>
     <string name="media_volume_option_title" msgid="2811531786073003825">"Музыка, видео, игры и другие медиафайлы"</string>
     <string name="alarm_volume_option_title" msgid="8219324421222242421">"Будильник"</string>
@@ -2669,9 +2682,9 @@
     <string name="no_vr_listeners" msgid="2689382881717507390">"Ни одно из установленных приложений не запрашивало разрешение на работу в качестве вспомогательного VR-сервиса."</string>
     <string name="vr_listener_security_warning_title" msgid="8309673749124927122">"Разрешить VR-сервису доступ к сервису \"<xliff:g id="SERVICE">%1$s</xliff:g>\"?"</string>
     <string name="vr_listener_security_warning_summary" msgid="6931541068825094653">"<xliff:g id="VR_LISTENER_NAME">%1$s</xliff:g> сможет начать работу, когда вы будете использовать приложения в режиме виртуальной реальности."</string>
-    <string name="display_vr_pref_title" msgid="7049857952347953979">"В режиме виртуальной реальности"</string>
-    <string name="display_vr_pref_low_persistence" msgid="6221441245293606681">"Использовать настройки для уменьшения размытия"</string>
-    <string name="display_vr_pref_off" msgid="1244880066079174840">"Не менять настройки"</string>
+    <string name="display_vr_pref_title" msgid="8104485269504335481">"Когда устройство в VR-режиме"</string>
+    <string name="display_vr_pref_low_persistence" msgid="5707494209944718537">"Уменьшить размытие (рекомендуется)"</string>
+    <string name="display_vr_pref_off" msgid="2190091757123260989">"Уменьшить подсветку"</string>
     <string name="manage_zen_access_title" msgid="2611116122628520522">"Доступ к функции \"Не беспокоить\""</string>
     <string name="zen_access_empty_text" msgid="8772967285742259540">"Установленные приложения не требуют доступа к функции \"Не беспокоить\""</string>
     <string name="loading_notification_apps" msgid="5031818677010335895">"Загрузка..."</string>
@@ -2772,7 +2785,7 @@
     <string name="switch_on_text" msgid="1124106706920572386">"ВКЛЮЧЕНО"</string>
     <string name="switch_off_text" msgid="1139356348100829659">"ВЫКЛЮЧЕНО"</string>
     <string name="screen_pinning_title" msgid="2292573232264116542">"Блокировка в приложении"</string>
-    <string name="screen_pinning_description" msgid="3360904523688769289">"Функция позволяет использовать блокировку, чтобы запретить переключаться между приложениями.\n\nВыполните следующие действия:\n\n1. Включите функцию блокировки в приложении.\n\n2. Откройте нужный экран.\n\n3. Нажмите \"Обзор\".\n\n4. Проведите по экрану вверх и коснитесь значка булавки."</string>
+    <string name="screen_pinning_description" msgid="3360904523688769289">"Функция позволяет использовать блокировку, чтобы запретить переключаться между приложениями.\n\nВыполните следующие действия:\n\n1. Включите функцию блокировки в приложении.\n\n2. Откройте нужный экран.\n\n3. Нажмите \"Обзор\".\n\n4. Проведите по экрану вверх и коснитесь значка булавки."</string>
     <string name="screen_pinning_unlock_pattern" msgid="8282268570060313339">"Запрашивать графический ключ"</string>
     <string name="screen_pinning_unlock_pin" msgid="8757588350454795286">"PIN-код для отключения"</string>
     <string name="screen_pinning_unlock_password" msgid="2514079566873826434">"Запрашивать пароль для отключения блокировки в приложении"</string>
@@ -2834,25 +2847,25 @@
     <string name="notifications_redacted" msgid="4493588975742803160">"Без конфиденциальных данных на заблокированном экране"</string>
     <string name="notifications_hidden" msgid="3619610536038757468">"Без уведомлений на заблок. экране"</string>
     <string name="notifications_priority" msgid="1066342037602085552">"Без учета режима \"Не беспокоить\""</string>
-    <string name="notifications_summary_divider" msgid="9013807608804041387">" / "</string>
-    <string name="notification_summary_level" msgid="2726571692704140826">"Уровень %d"</string>
+    <string name="notifications_summary_divider" msgid="9013807608804041387">" / "</string>
+    <string name="notification_summary_level" msgid="2726571692704140826">"Уровень %d"</string>
     <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="one">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешение</item>
-      <item quantity="few">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
-      <item quantity="many">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешений</item>
-      <item quantity="other">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
+      <item quantity="one">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешение</item>
+      <item quantity="few">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
+      <item quantity="many">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешений</item>
+      <item quantity="other">Предоставлено <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
     </plurals>
     <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="one">Предоставлено <xliff:g id="COUNT_2">%d</xliff:g> разрешение из <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="few">Предоставлены <xliff:g id="COUNT_2">%d</xliff:g> разрешения из <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="many">Предоставлено <xliff:g id="COUNT_2">%d</xliff:g> разрешений из <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="other">Предоставлены <xliff:g id="COUNT_2">%d</xliff:g> разрешения из <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="one">Предоставлено <xliff:g id="COUNT_2">%d</xliff:g> разрешение из <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="few">Предоставлены <xliff:g id="COUNT_2">%d</xliff:g> разрешения из <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="many">Предоставлено <xliff:g id="COUNT_2">%d</xliff:g> разрешений из <xliff:g id="COUNT_3">%d</xliff:g></item>
+      <item quantity="other">Предоставлены <xliff:g id="COUNT_2">%d</xliff:g> разрешения из <xliff:g id="COUNT_3">%d</xliff:g></item>
     </plurals>
     <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="one">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешение</item>
-      <item quantity="few">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
-      <item quantity="many">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешений</item>
-      <item quantity="other">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
+      <item quantity="one">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешение</item>
+      <item quantity="few">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
+      <item quantity="many">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешений</item>
+      <item quantity="other">Ещё <xliff:g id="COUNT_1">%d</xliff:g> разрешения</item>
     </plurals>
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"У приложения нет разрешений"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Приложение не запрашивало разрешения"</string>
@@ -2879,10 +2892,10 @@
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g>"</string>
     <string name="domain_urls_summary_some" msgid="3950089361819428455">"Могут открывать <xliff:g id="DOMAIN">%s</xliff:g> и другие URL"</string>
     <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> приложение может открывать поддерживаемые ссылки</item>
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> приложения могут открывать поддерживаемые ссылки</item>
-      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> приложений могут открывать поддерживаемые ссылки</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> приложения могут открывать поддерживаемые ссылки</item>
+      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> приложение может открывать поддерживаемые ссылки</item>
+      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> приложения могут открывать поддерживаемые ссылки</item>
+      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> приложений могут открывать поддерживаемые ссылки</item>
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> приложения могут открывать поддерживаемые ссылки</item>
     </plurals>
     <string name="app_link_open_always" msgid="2474058700623948148">"Открывать в этом приложении"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Всегда спрашивать"</string>
@@ -2928,10 +2941,10 @@
     <string name="high_power_system" msgid="7362862974428225301">"Экономия заряда недоступна"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Не экономить заряд. Батарея может разряжаться быстрее."</string>
     <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="one">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложения</item>
-      <item quantity="few">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложений</item>
-      <item quantity="many">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложений</item>
-      <item quantity="other">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложения</item>
+      <item quantity="one">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложения</item>
+      <item quantity="few">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложений</item>
+      <item quantity="many">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложений</item>
+      <item quantity="other">Экономия заряда батареи отключена для <xliff:g id="COUNT">%d</xliff:g> приложения</item>
     </plurals>
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Не ограничивать расход батареи?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Если вы разрешите приложению \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" работать в фоновом режиме, заряд батареи будет расходоваться быстрее. Продолжить?"</string>
@@ -2974,8 +2987,8 @@
     <string name="memory_details" msgid="5943436005716991782">"Подробности"</string>
     <string name="memory_use_summary" msgid="5608257211903075754">"За последние 3 часа использовано <xliff:g id="SIZE">%1$s</xliff:g> памяти"</string>
     <string name="no_memory_use_summary" msgid="2016900536806235588">"За последние 3 часа приложение не обращалось к памяти"</string>
-    <string name="sort_avg_use" msgid="3998036180505143129">"Упорядочить по средн. объему исп. памяти"</string>
-    <string name="sort_max_use" msgid="4629247978290075124">"Упорядочить по макс. объему исп. памяти"</string>
+    <string name="sort_avg_use" msgid="3998036180505143129">"Упорядочить по средн. объему исп. памяти"</string>
+    <string name="sort_max_use" msgid="4629247978290075124">"Упорядочить по макс. объему исп. памяти"</string>
     <string name="memory_performance" msgid="5661005192284103281">"Оценка доступной памяти"</string>
     <string name="total_memory" msgid="2017287600738630165">"Всего"</string>
     <string name="average_used" msgid="5338339266517245782">"Среднее использование"</string>
@@ -3002,7 +3015,7 @@
     <string name="ignore_optimizations_title" msgid="2829637961185027768">"Не ограничивать расход заряда батареи в приложении \"<xliff:g id="APP">%s</xliff:g>\"?"</string>
     <string name="app_list_preference_none" msgid="108006867520327904">"Нет"</string>
     <string name="work_profile_usage_access_warning" msgid="8870622842216566692">"Если вы отключите для приложения доступ к истории использования, администратор все равно сможет просматривать эти данные в вашем рабочем профиле."</string>
-    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"Использовано <xliff:g id="COUNT_0">%1$d</xliff:g> из <xliff:g id="COUNT_1">%2$d</xliff:g> символов"</string>
+    <string name="accessibility_lock_screen_progress" msgid="2408292742980383166">"Использовано <xliff:g id="COUNT_0">%1$d</xliff:g> из <xliff:g id="COUNT_1">%2$d</xliff:g> символов"</string>
     <string name="draw_overlay_title" msgid="4003905926278954971">"Показывать поверх других окон"</string>
     <string name="draw_overlay" msgid="9078696044299199938">"Показывать поверх других окон"</string>
     <string name="system_alert_window_settings" msgid="1757821151143694951">"Показывать поверх других окон"</string>
@@ -3055,14 +3068,14 @@
     <string name="disconnected" msgid="5787956818111197212">"Нет подключения"</string>
     <string name="data_usage_summary_format" msgid="7507047900192160585">"Использовано трафика: <xliff:g id="AMOUNT">%1$s</xliff:g>"</string>
     <plurals name="notification_summary" formatted="false" msgid="4019451362120557382">
-      <item quantity="one">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложению</item>
-      <item quantity="few">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложениям</item>
-      <item quantity="many">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложениям</item>
-      <item quantity="other">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложения</item>
+      <item quantity="one">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложению</item>
+      <item quantity="few">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложениям</item>
+      <item quantity="many">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложениям</item>
+      <item quantity="other">Показывать уведомления запрещено <xliff:g id="COUNT_1">%d</xliff:g> приложения</item>
     </plurals>
     <string name="notification_summary_none" msgid="3440195312233351409">"Разрешены уведомления от всех приложений"</string>
     <string name="apps_summary" msgid="193158055537070092">"Установлено приложений: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
-    <string name="apps_summary_example" msgid="2118896966712746139">"Установлено 24 приложения"</string>
+    <string name="apps_summary_example" msgid="2118896966712746139">"Установлено 24 приложения"</string>
     <string name="storage_summary" msgid="1110250618334248745">"Использовано: <xliff:g id="SIZE1">%1$s</xliff:g> из <xliff:g id="SIZE2">%2$s</xliff:g>"</string>
     <string name="display_summary_on" msgid="5628868543070268634">"Адаптивная регулировка включена"</string>
     <string name="display_summary_off" msgid="6399558022426312990">"Адаптивная регулировка отключена"</string>
@@ -3072,7 +3085,7 @@
     <string name="location_on_summary" msgid="5127631544018313587">"ВКЛ./<xliff:g id="LOCATION_MODE">%1$s</xliff:g>"</string>
     <string name="location_off_summary" msgid="6474350053215707957">"ВЫКЛ."</string>
     <string name="backup_disabled" msgid="485189128759595412">"Резервное копирование отключено"</string>
-    <string name="about_summary" msgid="8460677224778433924">"Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="about_summary" msgid="8460677224778433924">"Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="disabled_by_policy_title" msgid="627023216027648534">"Действие запрещено"</string>
     <string name="default_admin_support_msg" msgid="239311515653633217">"Функция отключена. Обратитесь к администратору."</string>
     <string name="admin_support_more_info" msgid="8901377038510512654">"Подробнее…"</string>
@@ -3097,7 +3110,7 @@
     <string name="condition_work_title" msgid="7293722361184366648">"Рабочий профиль отключен"</string>
     <string name="condition_work_summary" msgid="7543202177571590378">"Приложения, фоновая синхронизация и другие функции, связанные с вашим рабочим профилем, отключены."</string>
     <string name="condition_night_display_title" msgid="5599814941976856183">"Ночной режим включен"</string>
-    <string name="condition_night_display_summary" msgid="6156601053674688864">"Экран теперь имеет красный оттенок. Это поможет вам быстрее заснуть."</string>
+    <string name="condition_night_display_summary" msgid="5443722724310650381">"Экран теперь имеет желтоватый оттенок. Это поможет вам быстрее заснуть."</string>
     <string name="suggestions_title" msgid="7280792342273268377">"Подсказки"</string>
     <string name="suggestions_summary" msgid="2509040178581728056">"+<xliff:g id="ID_1">%1$d</xliff:g>"</string>
     <string name="suggestion_remove" msgid="904627293892092439">"Убрать"</string>
@@ -3122,6 +3135,7 @@
     <string name="network_restrictions" msgid="8234695294536675380">"Ограничения трафика"</string>
     <string name="operator_warning" msgid="1862988028996859195">"Статистика оператора связи может отличаться от статистики устройства"</string>
     <string name="data_used_template" msgid="3245919669966296505">"Передано: <xliff:g id="ID_1">%1$s</xliff:g>"</string>
+    <string name="set_data_warning" msgid="6115364758236594593">"Настройка предупреждения"</string>
     <string name="data_warning" msgid="209133958008062117">"Предупреждения"</string>
     <string name="set_data_limit" msgid="2901526323210516923">"Установить лимит трафика"</string>
     <string name="data_limit" msgid="1885406964934590552">"Установить лимит трафика"</string>
@@ -3129,8 +3143,8 @@
     <string name="configure" msgid="1029654422228677273">"Настроить"</string>
     <string name="data_usage_other_apps" msgid="3272872663517382050">"Другие приложения"</string>
     <plurals name="data_saver_unrestricted_summary" formatted="false" msgid="2635267833484232703">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> приложение может без ограничений передавать данные в режиме экономии трафика</item>
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> приложения могут без ограничений передавать данные в режиме экономии трафика</item>
+      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> приложение может без ограничений передавать данные в режиме экономии трафика</item>
+      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> приложения могут без ограничений передавать данные в режиме экономии трафика</item>
       <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> приложений могут без ограничений передавать данные в режиме экономии трафика</item>
       <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> приложения может без ограничений передавать данные в режиме экономии трафика</item>
     </plurals>
@@ -3195,7 +3209,7 @@
     <string name="notification_suggestion_summary" msgid="8521159741445416875">"Скрыть или показать содержание уведомлений"</string>
     <string name="page_tab_title_summary" msgid="4070309266374993258">"Все"</string>
     <string name="page_tab_title_support" msgid="6330657582897417458">"Поддержка"</string>
-    <string name="developer_density_summary" msgid="1998244213021456519">"<xliff:g id="ID_1">%d</xliff:g> dp"</string>
+    <string name="developer_density_summary" msgid="1998244213021456519">"<xliff:g id="ID_1">%d</xliff:g> dp"</string>
     <string name="developer_smallest_width" msgid="7516950434587313360">"Минимальная ширина"</string>
     <string name="premium_sms_none" msgid="8268105565738040566">"Нет приложений с доступом к платным SMS"</string>
     <string name="premium_sms_warning" msgid="9086859595338944882">"Обратите внимание, что такие SMS могут оплачиваться дополнительно. Предоставив разрешение приложению, вы сможете отправлять платные SMS с его помощью."</string>
@@ -3211,7 +3225,7 @@
     <string name="support_escalation_no_internet_summary" msgid="2526082812336597989">"Позвоните нам в течение рабочего дня (указано местное время):&lt;br&gt;&lt;b&gt;<xliff:g id="OPERATION_HOURS">%s</xliff:g>&lt;/b&gt;"</string>
     <string name="support_escalation_unavailable_summary" msgid="5208552975245211898">"Выполните поиск по Справочному центру или изучите наши рекомендации"</string>
     <string name="support_country_list_title" msgid="823853371280534111">"Служба поддержки:"</string>
-    <string name="support_country_format" msgid="4502523713489559595">"<xliff:g id="COUNTRY">%s</xliff:g> – <xliff:g id="LANGUAGE">%s</xliff:g>"</string>
+    <string name="support_country_format" msgid="4502523713489559595">"<xliff:g id="COUNTRY">%s</xliff:g> – <xliff:g id="LANGUAGE">%s</xliff:g>"</string>
     <string name="support_phone_international_format" msgid="2143528744844720829">"<xliff:g id="LANGUAGE">%s</xliff:g> (<xliff:g id="PHONE">%s</xliff:g>)"</string>
     <string name="support_international_phone_title" msgid="1308334014138718455">"Предстоит поездка за границу?"</string>
     <string name="support_international_phone_summary" msgid="208231793637026927">"Может взиматься плата за международные звонки"</string>
@@ -3223,28 +3237,27 @@
     <string name="support_sign_in_button_text" msgid="3054769428620671241">"Войти"</string>
     <string name="support_sign_in_required_help" msgid="5200654782405538114">"Не удается войти"</string>
     <string name="support_disclaimer_title" msgid="4825302018208770031">"Отправьте информацию о системе"</string>
-    <string name="support_disclaimer_content" msgid="6702447747744624871">"Чтобы быстрее диагностировать и решить проблему, нам нужна информация о системе."</string>
     <string name="support_disclaimer_do_not_show" msgid="3378367075323727539">"Больше не показывать"</string>
     <string name="managed_profile_settings_title" msgid="2729481936758125054">"Настройки рабочего профиля"</string>
     <string name="managed_profile_contact_search_title" msgid="6034734926815544221">"Поиск контактов"</string>
     <string name="managed_profile_contact_search_summary" msgid="5431253552272970512">"Разрешить поиск контактов в организации для определения вызывающих абонентов"</string>
     <plurals name="hours" formatted="false" msgid="7020844602875333472">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> час</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> часа</item>
-      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> часов</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> часа</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> час</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> часа</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> часов</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> часа</item>
     </plurals>
     <plurals name="minutes" formatted="false" msgid="4666832442068789413">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> минута</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> минуты</item>
-      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> минут</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минуты</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> минута</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> минуты</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> минут</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> минуты</item>
     </plurals>
     <plurals name="seconds" formatted="false" msgid="3876307354560025025">
-      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> секунда</item>
-      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> секунды</item>
-      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> секунд</item>
-      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> секунды</item>
+      <item quantity="one"><xliff:g id="NUMBER">%s</xliff:g> секунда</item>
+      <item quantity="few"><xliff:g id="NUMBER">%s</xliff:g> секунды</item>
+      <item quantity="many"><xliff:g id="NUMBER">%s</xliff:g> секунд</item>
+      <item quantity="other"><xliff:g id="NUMBER">%s</xliff:g> секунды</item>
     </plurals>
     <string name="support_estimated_wait_time" msgid="6523081420029378051">"Ожидание: примерно <xliff:g id="ESTIMATE">%1$s</xliff:g>"</string>
     <string name="bluetooth_talkback_computer" msgid="4875089335641234463">"Компьютер"</string>
@@ -3262,15 +3275,27 @@
     <string name="deletion_helper_manual_title" msgid="7947432164411214029">"Вручную"</string>
     <string name="deletion_helper_preference_title" msgid="5271510052022285884">"Очистить хранилище"</string>
     <string name="gesture_preference_title" msgid="5280023307132819052">"Жесты"</string>
-    <string name="gesture_preference_summary" msgid="8627850388011956901">"Жесты для управления телефоном"</string>
+    <string name="gesture_preference_summary" product="default" msgid="8627850388011956901">"Жесты для управления телефоном"</string>
+    <string name="gesture_preference_summary" product="tablet" msgid="4717535378272065510">"Жесты для управления устройством"</string>
+    <string name="gesture_preference_summary" product="device" msgid="4205941452664950852">"Жесты для управления устройством"</string>
     <string name="double_tap_power_for_camera_title" msgid="2993443929413421363">"Быстрый доступ к камере"</string>
-    <string name="double_tap_power_for_camera_summary" msgid="6988157149749655988">"Открывать камеру двойным нажатием кнопки питания"</string>
+    <string name="double_tap_power_for_camera_summary" msgid="6005086458928518432">"Открывать камеру двойным нажатием кнопки питания"</string>
     <string name="double_twist_for_camera_mode_title" msgid="4877834147983530479">"Быстрое переключение между камерами"</string>
     <string name="double_twist_for_camera_mode_summary" msgid="122977081337563340"></string>
-    <string name="ambient_display_title" msgid="7369291941168001738">"Автоматическое включение экрана"</string>
-    <string name="ambient_display_summary" msgid="3606386731704368561">"Показывать время и уведомления, когда вы берете устройство в руки или дважды нажимаете на экран"</string>
+    <string name="ambient_display_title" product="default" msgid="5144814600610448504">"Просмотр времени и уведомлений двойным нажатием"</string>
+    <string name="ambient_display_title" product="tablet" msgid="8688795028609563837">"Просмотр времени и уведомлений двойным нажатием"</string>
+    <string name="ambient_display_title" product="device" msgid="3423781975742145894">"Просмотр времени и уведомлений двойным нажатием"</string>
+    <string name="ambient_display_summary" msgid="5817384104520817202">"Чтобы увидеть уведомления, дважды нажмите на экран устройства"</string>
+    <string name="ambient_display_pickup_title" product="default" msgid="818688002837687268">"Просмотр уведомлений в вертикальном положении телефона"</string>
+    <string name="ambient_display_pickup_title" product="tablet" msgid="4455864282995698097">"Просмотр уведомлений в вертикальном положении планшета"</string>
+    <string name="ambient_display_pickup_title" product="device" msgid="5380534405773531175">"Просмотр уведомлений в вертикальном положении устройства"</string>
+    <string name="ambient_display_pickup_summary" product="default" msgid="7887685543895952417">"Чтобы увидеть уведомления, возьмите телефон в руки"</string>
+    <string name="ambient_display_pickup_summary" product="tablet" msgid="4703466494089486840">"Чтобы уведомления, возьмите планшет в руки"</string>
+    <string name="ambient_display_pickup_summary" product="device" msgid="3557276829636914807">"Чтобы увидеть уведомления, возьмите устройство в руки"</string>
     <string name="fingerprint_swipe_for_notifications_title" msgid="2750203868053669600">"Быстрый доступ к уведомлениям"</string>
-    <string name="fingerprint_swipe_for_notifications_summary" msgid="5274050434459511239">"Показывать уведомления, когда вы проводите вниз по сканеру отпечатков на задней панели телефона"</string>
+    <string name="fingerprint_swipe_for_notifications_summary" product="default" msgid="5274050434459511239">"Показывать уведомления, когда вы проводите вниз по сканеру отпечатков на задней панели телефона"</string>
+    <string name="fingerprint_swipe_for_notifications_summary" product="tablet" msgid="7557602481555096698">"Показывать уведомления, когда вы проводите вниз по сканеру отпечатков пальцев на задней панели устройства"</string>
+    <string name="fingerprint_swipe_for_notifications_summary" product="device" msgid="5635310946298433769">"Показывать уведомления, когда вы проводите вниз по сканеру отпечатков пальцев на задней панели устройства"</string>
     <string name="gesture_setting_on" msgid="3455094265233870280">"Вкл."</string>
     <string name="gesture_setting_off" msgid="5230169535435881894">"Выкл."</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="4265541229765635629">"Загрузчик ОС уже разблокирован"</string>
@@ -3278,4 +3303,9 @@
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="5884723935668892613">"Подключитесь к Интернету или обратитесь к оператору связи"</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device" msgid="4149387448213399630">"Недоступно на телефонах, привязанных к оператору"</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="7517560170441007788">"Всего доступно <xliff:g id="SIZE">%1$s</xliff:g>\n\nПоследний запуск <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="web_action_enable_title" msgid="8502552575492048305">"Открывать ссылки в приложениях"</string>
+    <string name="web_action_enable_summary" msgid="4679844581193646863">"Открывать ссылки в поддерживаемых приложениях, даже если они не установлены на устройстве"</string>
+    <string name="web_action_section_title" msgid="806405168097593614">"Приложения не установлены"</string>
+    <string name="domain_url_section_title" msgid="7046835219056428883">"Установленные приложения"</string>
+    <string name="automatic_storage_manager_activation_warning" msgid="6353100011690933254">"Память устройства теперь управляется менеджером хранилища"</string>
 </resources>
