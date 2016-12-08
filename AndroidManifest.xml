@@ -3131,6 +3131,7 @@
                 android:value="com.gzr.wolvesden.fragments.ExpandedDesktop" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@string/expanded_desktop_category" />
+         </activity>
 
         <activity android:name="Settings$AutomaticStorageManagerSettingsActivity"
                   android:exported="@bool/config_storage_manager_settings_enabled"
