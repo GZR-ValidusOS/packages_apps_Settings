@@ -2943,7 +2943,7 @@
 
        <!-- System action picker -->
         <activity android:name="com.gzr.wolvesden.ActionPickerDialogActivity"
-                android:theme="@*android:style/Theme.Material.Light.Dialog.Alert"
+                android:theme="@*android:style/Theme.Material.DayNight.Dialog.Alert"
                 android:label="@string/choose_action_title"
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -2953,7 +2953,7 @@
 
        <!-- Icon pack picker -->
         <activity android:name="com.gzr.wolvesden.IconPickerActivity"
-                android:theme="@*android:style/Theme.Material.Light.Dialog.Alert"
+                android:theme="@*android:style/Theme.Material.DayNight.Dialog.Alert"
                 android:label="@string/icon_pack_picker_dialog_title"
                 android:excludeFromRecents="true">
             <intent-filter>
@@ -2964,7 +2964,7 @@
 
         <!-- Icon picker proxy for gallery -->
         <activity android:name="com.gzr.wolvesden.IconPickerGallery"
-            android:theme="@*android:style/Theme.Material.Light.Dialog.Alert"
+            android:theme="@*android:style/Theme.Material.DayNight.Dialog.Alert"
             android:label="@string/icon_pack_picker_dialog_title"
             android:excludeFromRecents="true">
             <intent-filter>
