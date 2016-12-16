@@ -24,6 +24,24 @@
             android:title="@string/changelog_validus_title"
             android:fragment="com.android.settings.validus.Changelog" />
 
+        <!-- Validus Share -->
+        <PreferenceScreen
+            android:key="share"
+            android:title="@string/share_validus_title"
+            android:summary="@string/share_validus_summary" />
+
+        <!-- Validus Github -->
+        <PreferenceScreen
+            android:key="validus_source"
+            android:title="@string/validus_source_title"
+            android:summary="@string/validus_source_summary" />
+
+        <!-- Validus GooglePlus -->
+        <PreferenceScreen
+            android:key="validus_google_plus"
+            android:title="@string/validus_google_plus_title"
+            android:summary="@string/validus_google_plus_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

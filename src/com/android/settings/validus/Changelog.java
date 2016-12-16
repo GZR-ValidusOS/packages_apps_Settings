@@ -19,6 +19,7 @@ package com.android.settings.validus;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
@@ -40,6 +41,7 @@ public class Changelog extends Fragment {
         InputStreamReader inputReader = null;
         String text = null;
 
+        setHasOptionsMenu(true);
         try {
             StringBuilder data = new StringBuilder();
             char tmp[] = new char[2048];
@@ -68,5 +70,14 @@ public class Changelog extends Fragment {
         scrollView.addView(textView);
 
         return scrollView;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            getActivity().onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

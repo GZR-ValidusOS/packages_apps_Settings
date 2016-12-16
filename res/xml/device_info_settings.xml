@@ -19,6 +19,18 @@
                           android:enabled="false"
                           android:layout="@layout/validus_logo_row" />
 
+        <!-- Validus build version -->
+        <com.android.settings.DividerPreference
+                android:key="validus_version"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/validus_version_title"
+                android:summary="@string/validus_version_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"
+		android:icon="@drawable/gzr_logo" />
+
         <!-- About Validus -->
         <PreferenceScreen android:key="about"
                 android:title="@string/about_validus"
@@ -115,17 +127,6 @@
                 android:selectable="false"
                 android:title="@string/baseband_version"
                 android:summary="@string/device_info_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
-                
-        <!-- Validus build version -->
-        <com.android.settings.DividerPreference
-                android:key="validus_version"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:selectable="false"
-                android:title="@string/validus_version_title"
-                android:summary="@string/validus_version_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
