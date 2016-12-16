@@ -19,6 +19,11 @@
                           android:enabled="false"
                           android:layout="@layout/validus_logo_row" />
 
+        <!-- About Validus -->
+        <PreferenceScreen android:key="about"
+                android:title="@string/about_validus"
+                android:fragment="com.android.settings.validus.About" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
