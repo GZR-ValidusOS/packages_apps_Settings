@@ -12,9 +12,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About phone screen, Validus device maintainer name -->
+    <string name="device_maintainer">Device maintainer</string>
+    <string name="device_maintainers">Device maintainers</string>
+
     <!-- About phone screen, Tesla version -->
     <string name="validus_version_title">Validus version</string>
     <string name="validus_version_default">Unknown</string>
+
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
