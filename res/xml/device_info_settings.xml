@@ -78,6 +78,12 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
+        <!-- Hardware info - launches activity -->
+        <PreferenceScreen android:key="hwinfo"
+                android:title="@string/validus_hwinfo_title"
+                android:fragment="com.android.settings.validus.HwInfo">
+        </PreferenceScreen>
+
         <!-- Device firmware version -->
         <com.android.settings.DividerPreference
                 android:key="firmware_version"

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/validus_hwinfo_title" >
+
+    <!-- Device Chipset info -->
+        <com.android.settings.DividerPreference
+                android:key="device_chipset"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/chipset_info"
+                android:summary="@string/device_info_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+    <!-- Device cpu info -->
+        <com.android.settings.DividerPreference
+                android:key="device_cpu"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/cpu_info"
+                android:summary="@string/device_info_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+    <!-- Device gpu info -->
+        <com.android.settings.DividerPreference
+                android:key="device_gpu"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/gpu_info"
+                android:summary="@string/device_info_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+    <!-- Device mem info -->
+        <com.android.settings.DividerPreference
+                android:key="device_memory"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/mem_info"
+                android:summary="@string/device_info_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+    <!-- Device rear camera -->
+        <com.android.settings.DividerPreference
+                android:key="device_rear_camera"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/device_rear_camera"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+    <!-- Device front camera -->
+        <com.android.settings.DividerPreference
+                android:key="device_front_camera"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/device_front_camera"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
+    <!-- Device screen resolution -->
+        <com.android.settings.DividerPreference
+                android:key="device_screen_resolution"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/device_screen_resolution"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+</PreferenceScreen>
