@@ -288,4 +288,9 @@
     <string name="show_enter_key_title">Show enter key</string>
     <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 
+    <!-- Settings drawer switch -->
+    <string name="show_settings_drawer_title">Show settings drawer</string>
+    <string name="show_settings_drawer_enabled">Settings drawer enabled</string>
+    <string name="show_settings_drawer_disabled">Settings drawer disabled</string>
+
 </resources>

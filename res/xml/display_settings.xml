@@ -121,6 +121,13 @@
                 android:title="@string/dashboard_category">
 
         <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="show_settings_drawer"
+                android:title="@string/show_settings_drawer_title"
+                android:summaryOn="@string/show_settings_drawer_enabled"
+                android:summaryOff="@string/show_settings_drawer_disabled"
+                android:defaultValue="true" />
+
+        <com.android.settings.preference.SystemSettingSwitchPreference
                 android:key="disable_suggestions"
                 android:title="@string/dashboard_suggestions_title"
                 android:summaryOn="@string/summary_dashboard_suggestions_enabled"
