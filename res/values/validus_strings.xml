@@ -44,6 +44,9 @@
     <string name="validus_google_plus_title">Google+</string>
     <string name="validus_google_plus_summary">Visit our G+ page for support and news</string>
 
+    <!-- ValidusOTA -->
+    <string name="slimota_title">Validus Updates</string>
+
     <!-- WolvesDen -->
     <string name="wolvesden_title">WolvesDen</string>
     <string name="header_category_wolvesden">Customization</string>

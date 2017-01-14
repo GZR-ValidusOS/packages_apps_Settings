@@ -31,6 +31,16 @@
                 settings:allowDividerBelow="true"
 		android:icon="@drawable/gzr_logo" />
 
+        <!-- Validus OTA -->
+        <PreferenceScreen
+               android:key="slimota"
+               android:title="@string/slimota_title" >
+               <intent
+                       android:action="android.intent.action.MAIN"
+                       android:targetPackage="com.fusionjack.slimota"
+                       android:targetClass="com.fusionjack.slimota.MainActivity" />
+        </PreferenceScreen>
+
         <!-- About Validus -->
         <PreferenceScreen android:key="about"
                 android:title="@string/about_validus"
