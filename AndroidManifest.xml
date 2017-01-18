@@ -962,6 +962,10 @@
                 android:value="true" />
         </activity>
 
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.gzr.wolvesden.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.gzr.wolvesden.gestureanywhere.GestureAnywhereCreateGestureActivity" /> 
+
         <activity android:name="Settings$DisplaySettingsActivity"
                 android:label="@string/display_settings"
                 android:icon="@drawable/ic_settings_display"
