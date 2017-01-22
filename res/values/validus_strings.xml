@@ -61,17 +61,6 @@
     <string name="cpu_info">CPU</string>
     <string name="mem_info">Memory</string>
 
-    <!-- Dashboard options -->
-    <string name="dashboard_category">Dashboard options</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
-    <string name="remove_tile_summaries_title">Remove tile summaries</string>
-    <string name="remove_tile_summaries_summary">Remove tiles summaries that display underneath tile titles</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
@@ -177,6 +166,20 @@
     <string name="volume_steps_15">15</string>
     <string name="volume_steps_7">7</string>
     <string name="volume_steps_5">5</string>
+
+    <!-- Dashboard options -->
+    <string name="dashboard_category">Dashboard options</string>
+    <string name="dashboard_suggestions_title">Suggestions</string>
+    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+    <string name="remove_tile_summaries_title">Summaries</string>
+    <string name="remove_tile_summaries_summary_enabled">Dashboard summaries are enabled</string>
+    <string name="remove_tile_summaries_summary_disabled">Dashboard summaries are disabled</string>
+    <string name="dashboard_conditions_title">Conditions</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+    <string name="dashboard_columns_portrait_title">Columns (portrait)</string>
+    <string name="dashboard_columns_landscape_title">Columns (landscape)</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
@@ -304,15 +307,4 @@
     <string name="qs_night_bright_less">Set low brightness</string>
     <string name="qs_night_bright_medium">Set medium brightness</string>
     <string name="qs_night_bright_min">Set minimum brightness</string>
-
-    <!-- Dashboard columns -->
-    <string name="dashboard_columns_title">Dashboard Columns</string>
-    <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard</string>
-    <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
-    <string name="dashboard_columns_default">One (two landscape)</string>
-    <string name="dashboard_columns_two">Two (three landscape)</string>
-    <string name="dashboard_columns_three">Three (four landscape)</string>
-    <string name="dashboard_summary_double_lines_title">Dashboard summary lines</string>
-    <string name="dashboard_summary_double_lines_summary_on">Show dashboard tile summaries in more lines</string>
-    <string name="dashboard_summary_double_lines_summary_off">Show dashboard tile summaries in 1 line</string>
 </resources>
