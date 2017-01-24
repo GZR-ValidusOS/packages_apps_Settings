@@ -63,7 +63,7 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedPreference;
 
-import com.gzr.teslacoil.preference.CustomSeekBarPreference;
+import com.gzr.wolvesden.preference.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -145,8 +145,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     updateRotationPreferencesState();
                 }
             };
-
-    private TimeoutListPreference mScreenTimeoutPreference;
 
     @Override
     protected int getMetricsCategory() {
