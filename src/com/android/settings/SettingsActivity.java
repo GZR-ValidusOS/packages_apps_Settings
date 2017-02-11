@@ -235,6 +235,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final int REQUEST_SUGGESTION = 42;
 
+    private static final String MAGISK_FRAGMENT = "com.android.settings.MagiskManager";
+
     private String mFragmentClass;
 
     private CharSequence mInitialTitle;
@@ -1030,6 +1032,13 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
+        if (MAGISK_FRAGMENT.equals(fragmentName)) {
+            Intent magiskIntent = new Intent();
+            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
+            startActivity(magiskIntent);
+            finish();
+            return null;
+        }
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
@@ -1122,6 +1131,16 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
+
+        // Magisk Manager
+        boolean magiskSupported = false;
+        try {
+            magiskSupported = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.MagiskActivity.class.getName()),
+                magiskSupported, isAdmin, pm);
 
         if (UserHandle.MU_ENABLED && !isAdmin) {
             // When on restricted users, disable all extra categories (but only the settings ones).
