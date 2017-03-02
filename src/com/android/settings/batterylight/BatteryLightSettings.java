@@ -92,7 +92,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         if (getResources().getBoolean(com.android.internal.R.bool.config_ledCanPulse)) {
             mPulsePref = (SystemSettingSwitchPreference) prefSet.findPreference(BATTERY_PULSE_PREF);
             mPulsePref.setChecked(Settings.System.getInt(resolver,
-                    Settings.System.BATTERY_LIGHT_PULSE, mBatteryLightEnabled ? 1 : 0) != 0);
+                        Settings.System.BATTERY_LIGHT_PULSE, 0) != 0);
             mPulsePref.setOnPreferenceChangeListener(this);
         } else {
             PreferenceCategory general = (PreferenceCategory) prefSet.findPreference(GENERAL_CAT);
