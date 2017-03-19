@@ -58,6 +58,7 @@ public class InputMethodsSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mKeyboardRotationToggle;
     private ListPreference mKeyboardRotationTimeout;
     private SwitchPreference mShowEnterKey;
+    private ListPreference mVolumeKeyCursorControl;
 
     @Override
     protected int getMetricsCategory() {
