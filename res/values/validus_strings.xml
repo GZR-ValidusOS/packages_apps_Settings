@@ -54,6 +54,9 @@
     <string name="wolvesden_title">WolvesDen</string>
     <string name="header_category_wolvesden">Customization</string>
 
+    <string name="ka_title">Kernel Adiutor</string>
+    <string name="ka_summary">Fine tune your device</string>
+
     <!-- setting: show CPU info-->
     <string name="validus_hwinfo_title">Hardware info</string>
     <string name="chipset_info">Chipset</string>
