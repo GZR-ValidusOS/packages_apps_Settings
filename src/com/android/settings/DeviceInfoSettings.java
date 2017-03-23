@@ -87,7 +87,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
     long[] mHits = new long[3];
-    static final int TAPS_TO_BE_A_DEVELOPER = 7;
+    int mDevHitCountdown;
+    Toast mDevHitToast;
 
     private UserManager mUm;
 
