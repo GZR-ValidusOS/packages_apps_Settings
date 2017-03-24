@@ -1051,7 +1051,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         }
         if (KA_FRAGMENT.equals(fragmentName)) {
             Intent kaIntent = new Intent();
-            kaIntent.setClassName("com.grarak.kerneladiutor", "com.grarak.kerneladiutor.activities.MainActivity");
+            kaIntent.setClassName("com.grarak.kerneladiutor", "com.grarak.kerneladiutor.MainActivity");
             startActivity(kaIntent);
             finish();
             return null;
