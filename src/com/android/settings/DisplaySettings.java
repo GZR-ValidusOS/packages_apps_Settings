@@ -31,6 +31,7 @@ import android.database.ContentObserver;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.Build;
+import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemProperties;
@@ -100,6 +101,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
     private static final String KEY_WALLPAPER = "wallpaper";
     private static final String KEY_VR_DISPLAY_PREF = "vr_display_pref";
+    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
 
     private static final String DASHBOARD_PORTRAIT_COLUMNS = "dashboard_portrait_columns";
     private static final String DASHBOARD_LANDSCAPE_COLUMNS = "dashboard_landscape_columns";
@@ -119,11 +121,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private Preference mFontSizePref;
 
     private TimeoutListPreference mScreenTimeoutPreference;
+    private SwitchPreference mProximityCheckOnWakePreference;
     private ListPreference mDashboardColumns;
 
     private CustomSeekBarPreference mDashboardPortraitColumns;
     private CustomSeekBarPreference mDashboardLandscapeColumns;
 
+    private PreferenceCategory mWakeUpOptions;
     private Preference mScreenSaverPreference;
 
     private SwitchPreference mLiftToWakePreference;
@@ -289,6 +293,16 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             });
         } else {
             removePreference(KEY_VR_DISPLAY_PREF);
+        }
+
+        mProximityCheckOnWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
+        boolean proximityCheckOnWake = getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake);
+        if (!proximityCheckOnWake) {
+            if (mWakeUpOptions != null && mProximityCheckOnWakePreference != null) {
+                mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
+            }
+            Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
         }
     }
 
