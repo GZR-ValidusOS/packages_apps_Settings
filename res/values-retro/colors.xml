@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_background">#ff000000</color>
+    <color name="lock_pattern_view_regular_color">@*android:color/secondary_text_default_material_dark</color>
+    <color name="switchbar_background_color">#ff000000</color>
+    <color name="theme_accent">#ffcc0000</color>
+
+    <color name="gestures_setting_background_color">#424242</color>
+
+    <!-- Gesture Anywhere -->
+    <color name="ga_gesture_color">#ffcc0000</color>
+
+    <drawable name="fp_enrollment_header_landscape">#cc0000</drawable>
+
+</resources>
