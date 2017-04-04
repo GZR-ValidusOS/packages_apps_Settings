@@ -10,6 +10,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
  -->
+
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="yes" msgid="4676390750360727396">"Áno"</string>
@@ -43,7 +44,13 @@
     <string name="radioInfo_menu_viewADN" msgid="7069468158519465139">"Zobraziť adresár SIM karty"</string>
     <string name="radioInfo_menu_viewFDN" msgid="7934301566925610318">"Zobraziť povolené čísla"</string>
     <string name="radioInfo_menu_viewSDN" msgid="7130280686244955669">"Zobraziť čísla volaní služieb"</string>
-    <string name="radioInfo_menu_getPDP" msgid="8951059003824985976">"Získať zoznam PDP"</string>
+    <string name="radioInfo_menu_getIMS" msgid="185171476413967831">"Stav služby IMS"</string>
+    <string name="radio_info_ims_reg_status_title" msgid="16971785902696970">"Stav IMS"</string>
+    <string name="radio_info_ims_reg_status_registered" msgid="5614116179751126247">"Registrované"</string>
+    <string name="radio_info_ims_reg_status_not_registered" msgid="4438054067642750717">"Nezaregistrované"</string>
+    <string name="radio_info_ims_feature_status_available" msgid="3687807290327566879">"K dispozícii"</string>
+    <string name="radio_info_ims_feature_status_unavailable" msgid="4606182208970114368">"Nie je k dispozícii"</string>
+    <string name="radio_info_ims_reg_status" msgid="7534612158445529715">"Registrácia IMS: <xliff:g id="STATUS">%1$s</xliff:g>\nHlas cez LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nHlas cez Wi-Fi: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nVideohovory: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nRozhranie UT: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="1697703164394784618">"V prevádzke"</string>
     <string name="radioInfo_service_out" msgid="7999094221728929681">"Mimo prevádzky"</string>
     <string name="radioInfo_service_emergency" msgid="6274434235469661525">"Len tiesňové volania"</string>
@@ -467,27 +474,35 @@
     <string name="unlock_disable_frp_warning_title_profile" msgid="5507136301904313583">"Odstrániť ochranu profilu?"</string>
     <string name="unlock_disable_frp_warning_content_pattern" msgid="8869767290771023461">"Funkcie ochrany zariadenia nebudú bez vášho vzoru fungovať."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint" msgid="8212242533942400457">"Funkcie ochrany zariadenia nebudú fungovať bez vášho vzoru.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Z tohto zariadenia sa tiež odstránia vaše uložené odtlačky prstov a nebudete môcť pomocou nich ďalej odomykať svoj telefón, autorizovať nákupy ani sa prihlasovať do aplikácií.“"</string>
     <string name="unlock_disable_frp_warning_content_pin" msgid="586996206210265131">"Funkcie ochrany zariadenia nebudú fungovať bez vášho kódu PIN."</string>
     <string name="unlock_disable_frp_warning_content_pin_fingerprint" msgid="875669051899437197">"Funkcie ochrany zariadenia nebudú fungovať bez vášho kódu PIN.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Z tohto zariadenia sa tiež odstránia vaše uložené odtlačky prstov a nebudete môcť pomocou nich ďalej odomykať svoj telefón, autorizovať nákupy ani sa prihlasovať do aplikácií.“"</string>
     <string name="unlock_disable_frp_warning_content_password" msgid="5420612686852555537">"Funkcie ochrany zariadenia nebudú fungovať bez vášho hesla."</string>
     <string name="unlock_disable_frp_warning_content_password_fingerprint" msgid="2228159168587170445">"Funkcie ochrany zariadenia nebudú fungovať bez vášho hesla.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Z tohto zariadenia sa tiež odstránia vaše uložené odtlačky prstov a nebudete môcť pomocou nich ďalej odomykať svoj telefón, autorizovať nákupy ani sa prihlasovať do aplikácií.“"</string>
     <string name="unlock_disable_frp_warning_content_unknown" msgid="1550718040483548220">"Funkcie ochrany zariadenia nebudú fungovať bez vašej zámky obrazovky."</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint" msgid="6363091330281670692">"Funkcie ochrany zariadenia nebudú fungovať bez vašej zámky obrazovky.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Z tohto zariadenia sa tiež odstránia vaše uložené odtlačky prstov a nebudete môcť pomocou nich ďalej odomykať svoj telefón, autorizovať nákupy ani sa prihlasovať do aplikácií.“"</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile" msgid="8682200103576359918">"Funkcie ochrany zariadenia nebudú fungovať bez vášho bezpečnostného vzoru."</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile" msgid="3675154828957224316">"Funkcie na ochranu zariadenia nebudú fungovať bez vášho bezpečnostného vzoru.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Vaše uložené odtlačky prstov budú tiež odstránené z tohto profilu, takže nebudete môcť odomknúť profil, schvaľovať nákupy ani sa pomocou nich prihlásiť do aplikácií."</string>
     <string name="unlock_disable_frp_warning_content_pin_profile" msgid="7790688070593867767">"Funkcie ochrany zariadenia nebudú fungovať bez vášho kódu PIN."</string>
     <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile" msgid="4879321153584598940">"Funkcie ochrany zariadenia nebudú fungovať bez vášho kódu PIN.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Vaše uložené odtlačky prstov budú tiež odstránené z tohto profilu, takže nebudete môcť odomknúť profil, schvaľovať nákupy ani sa pomocou nich prihlásiť do aplikácií."</string>
     <string name="unlock_disable_frp_warning_content_password_profile" msgid="7569285520567674461">"Funkcie na ochranu zariadenia nebudú fungovať bez vášho hesla."</string>
     <string name="unlock_disable_frp_warning_content_password_fingerprint_profile" msgid="3527188316958917839">"Funkcie na ochranu zariadenia nebudú fungovať bez vášho hesla.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Vaše uložené odtlačky prstov budú tiež odstránené z tohto profilu, takže nebudete môcť odomknúť profil, schvaľovať nákupy ani sa pomocou nich prihlásiť do aplikácií."</string>
     <string name="unlock_disable_frp_warning_content_unknown_profile" msgid="6984215718701688202">"Funkcie ochrany zariadenia nebudú fungovať bez vašej zámky obrazovky."</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile" msgid="1962204059377724158">"Funkcie ochrany zariadenia nebudú fungovať bez vašej zámky obrazovky.<xliff:g id="EMPTY_LINE">
+
 </xliff:g>Vaše uložené odtlačky prstov budú tiež odstránené z tohto profilu, takže nebudete môcť odomknúť profil, schvaľovať nákupy ani sa pomocou nich prihlásiť do aplikácií."</string>
     <string name="unlock_disable_frp_warning_ok" msgid="7075138677177748705">"Áno, odstrániť"</string>
     <string name="unlock_change_lock_pattern_title" msgid="2044092014872741130">"Zmena bezpečnostného vzoru"</string>
@@ -679,6 +694,8 @@
     <string name="wifi_setting_sleep_policy_title" msgid="5149574280392680092">"Wi-Fi zapnuté aj v režime spánku"</string>
     <string name="wifi_setting_on_during_sleep_title" msgid="8308975500029751565">"Wi‑Fi aktívne v režime spánku"</string>
     <string name="wifi_setting_sleep_policy_error" msgid="8174902072673071961">"Pri zmene nastavení sa vyskytol problém"</string>
+    <string name="wifi_connect_carrier_networks" msgid="8126250792185749891">"Pripojiť k sieťam operátora"</string>
+    <string name="wifi_connect_carrier_networks_summary" msgid="4812773364191051399">"Pripojiť k dostupným sieťam operátora"</string>
     <string name="wifi_suspend_efficiency_title" msgid="2338325886934703895">"Zlepšiť výkonnosť"</string>
     <string name="wifi_suspend_optimizations" msgid="1220174276403689487">"Optimalizácia Wi-Fi"</string>
     <string name="wifi_suspend_optimizations_summary" msgid="4151428966089116856">"Minimalizovať spotrebu batérie pri zapnutej sieti Wi-Fi"</string>
@@ -2935,6 +2952,7 @@
     <string name="memory_use_running_format" msgid="4172488041800743760">"<xliff:g id="MEMORY">%1$s</xliff:g> / <xliff:g id="RUNNING">%2$s</xliff:g>"</string>
     <string name="process_format" msgid="77905604092541454">"<xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="COUNT">%2$d</xliff:g>)"</string>
     <string name="high_power_apps" msgid="3459065925679828230">"Optimalizácia batérie"</string>
+    <string name="additional_battery_info" msgid="4754099329165411970">"Upozornenia na spotrebu"</string>
     <string name="high_power_filter_on" msgid="3222265297576680099">"Neoptimalizované"</string>
     <string name="high_power_on" msgid="6216293998227583810">"Neoptimalizované"</string>
     <string name="high_power_off" msgid="3393904131961263278">"Optimalizuje používanie batérie"</string>
@@ -3308,4 +3326,6 @@
     <string name="web_action_section_title" msgid="806405168097593614">"Nenainštalované aplikácie"</string>
     <string name="domain_url_section_title" msgid="7046835219056428883">"Nainštalované aplikácie"</string>
     <string name="automatic_storage_manager_activation_warning" msgid="6353100011690933254">"Vaše úložisko odteraz riadi správca úložiska"</string>
+    <string name="carrier_provisioning" msgid="4398683675591893169">"Informácie o poskytovaní služieb operátorom"</string>
+    <string name="trigger_carrier_provisioning" msgid="3434865918009286187">"Spustiť poskytovanie služieb operátorom"</string>
 </resources>
