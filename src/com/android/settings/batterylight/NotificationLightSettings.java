@@ -33,6 +33,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v14.preference.PreferenceFragment;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -65,7 +66,15 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     private static final String NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR = "notification_light_pulse_default_color";
     private static final String NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_ON = "notification_light_pulse_default_led_on";
     private static final String NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF = "notification_light_pulse_default_led_off";
+    private static final String NOTIFICATION_LIGHT_PULSE_CALL_COLOR = "notification_light_pulse_call_color";
+    private static final String NOTIFICATION_LIGHT_PULSE_CALL_LED_ON = "notification_light_pulse_call_led_on";
+    private static final String NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF = "notification_light_pulse_call_led_off";
+    private static final String NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR = "notification_light_pulse_vmail_color";
+    private static final String NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON = "notification_light_pulse_vmail_led_on";
+    private static final String NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF = "notification_light_pulse_vmail_led_off";
     private static final String DEFAULT_PREF = "default";
+    private static final String MISSED_CALL_PREF = "missed_call";
+    private static final String VOICEMAIL_PREF = "voicemail";
     public static final int ACTION_TEST = 0;
     public static final int ACTION_DELETE = 1;
     private static final int MENU_ADD = 0;
@@ -79,7 +88,10 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     private SystemSettingSwitchPreference mEnabledPref;
     private SystemSettingSwitchPreference mScreenOnLightsPref;
     private SystemSettingSwitchPreference mCustomEnabledPref;
+    // private SystemSettingSwitchPreference mAutoGenerateColors;
     private NotificationLightPreference mDefaultPref;
+    private NotificationLightPreference mCallPref;
+    private NotificationLightPreference mVoicemailPref;
     private Menu mMenu;
     private AppSelectListPreference mPackageAdapter;
     private String mPackageList;
@@ -88,7 +100,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.CONFIGURE_NOTIFICATION;
+        return MetricsEvent.WOLVESDEN;
     }
 
     @Override
@@ -121,10 +133,25 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
                 findPreference(Settings.System.NOTIFICATION_LIGHT_SCREEN_ON);
         mScreenOnLightsPref.setOnPreferenceChangeListener(this);
 
+        // mAutoGenerateColors = (SystemSettingSwitchPreference)
+                // findPreference(Settings.System.NOTIFICATION_LIGHT_COLOR_AUTO);
+
         // Advanced light settings
         mCustomEnabledPref = (SystemSettingSwitchPreference)
                 findPreference(Settings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_ENABLE);
         mCustomEnabledPref.setOnPreferenceChangeListener(this);
+
+        // Missed call and Voicemail preferences should only show on devices with a voice capabilities
+        TelephonyManager tm = (TelephonyManager) getActivity().getSystemService(Context.TELEPHONY_SERVICE);
+        if (tm.getPhoneType() == TelephonyManager.PHONE_TYPE_NONE) {
+            removePreference("phone_list");
+        } else {
+            mCallPref = (NotificationLightPreference) findPreference(MISSED_CALL_PREF);
+            mCallPref.setOnPreferenceChangeListener(this);
+
+            mVoicemailPref = (NotificationLightPreference) findPreference(VOICEMAIL_PREF);
+            mVoicemailPref.setOnPreferenceChangeListener(this);
+        }
 
         mApplicationPrefList = (PreferenceGroup) findPreference("applications_list");
         mApplicationPrefList.setOrderingAsAdded(false);
@@ -136,7 +163,15 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         mPackages = new HashMap<String, Package>();
         setHasOptionsMenu(true);
 
-    }
+        // mMultiColorLed = resources.getBoolean(com.android.internal.R.bool.config_multiColorNotificationLed);
+        // if (!mMultiColorLed) {
+         //   resetColors();
+         //   PreferenceGroup mGeneralPrefs = (PreferenceGroup) prefSet.findPreference("general_section");
+         //   mGeneralPrefs.removePreference(mAutoGenerateColors);
+       // } else {
+         //   mAutoGenerateColors.setOnPreferenceChangeListener(this);
+       // }
+    //}
 
     @Override
     public void onResume() {
@@ -156,6 +191,29 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
                 Settings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, mDefaultLedOff);
 
         mDefaultPref.setAllValues(color, timeOn, timeOff);
+
+        // Get Missed call and Voicemail values
+        if (mCallPref != null) {
+            int callColor = Settings.System.getInt(resolver,
+                    Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, mDefaultColor);
+            int callTimeOn = Settings.System.getInt(resolver,
+                    Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, mDefaultLedOn);
+            int callTimeOff = Settings.System.getInt(resolver,
+                    Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, mDefaultLedOff);
+
+            mCallPref.setAllValues(callColor, callTimeOn, callTimeOff);
+        }
+
+        if (mVoicemailPref != null) {
+            int vmailColor = Settings.System.getInt(resolver,
+                    Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, mDefaultColor);
+            int vmailTimeOn = Settings.System.getInt(resolver,
+                    Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON, mDefaultLedOn);
+            int vmailTimeOff = Settings.System.getInt(resolver,
+                    Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF, mDefaultLedOff);
+
+            mVoicemailPref.setAllValues(vmailColor, vmailTimeOn, vmailTimeOff);
+        }
 
         mApplicationPrefList = (PreferenceGroup) findPreference("applications_list");
         mApplicationPrefList.setOrderingAsAdded(false);
@@ -208,6 +266,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
     private int getInitialColorForPackage(String packageName) {
         boolean autoColor = true;
+       // boolean autoColor = Settings.System.getInt(getContentResolver(),
+        //        Settings.System.NOTIFICATION_LIGHT_COLOR_AUTO, mMultiColorLed ? 1 : 0) == 1;;
         int color = mDefaultColor;
         if (autoColor) {
             try {
@@ -295,6 +355,18 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
             Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, timeoff);
             refreshDefault();
             return;
+        } else if (packageName.equals(MISSED_CALL_PREF)) {
+            Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, color);
+            Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, timeon);
+            Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, timeoff);
+            refreshDefault();
+            return;
+        } else if (packageName.equals(VOICEMAIL_PREF)) {
+            Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, color);
+            Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON, timeon);
+            Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF, timeoff);
+            refreshDefault();
+            return;
         }
 
         // Find the custom package and sets its new values
@@ -312,6 +384,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
         // Reset to the framework default colors
         Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, mDefaultColor);
+        Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, mDefaultColor);
+        Settings.System.putInt(resolver, Settings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, mDefaultColor);
 
         refreshDefault();
     }
@@ -343,7 +417,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mEnabledPref || preference == mCustomEnabledPref ||
-            preference == mScreenOnLightsPref) {
+            preference == mScreenOnLightsPref {
+            // preference == mAutoGenerateColors) {
             getActivity().invalidateOptionsMenu();
         } else {
             NotificationLightPreference lightPref = (NotificationLightPreference) preference;
@@ -467,4 +542,34 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         }
 
     }
+
+/*    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.battery_light_settings;
+                    result.add(sir);
+                    return result;
+                }
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    ArrayList<String> result = new ArrayList<String>();
+                    final Resources res = context.getResources();
+                    if (!res.getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+                        result.add(BATTERY_LIGHT_PREF);
+                        result.add(BATTERY_PULSE_PREF);
+                    }
+                    if (!res.getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {
+                        result.add(LOW_COLOR_PREF);
+                        result.add(MEDIUM_COLOR_PREF);
+                        result.add(FULL_COLOR_PREF);
+                        result.add(REALLY_FULL_COLOR_PREF);
+                    }
+                    return result;
+                }
+            }; */
 }
