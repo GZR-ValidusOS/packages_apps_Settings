@@ -171,7 +171,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
        // } else {
          //   mAutoGenerateColors.setOnPreferenceChangeListener(this);
        // }
-    //}
+    }
 
     @Override
     public void onResume() {
@@ -417,7 +417,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mEnabledPref || preference == mCustomEnabledPref ||
-            preference == mScreenOnLightsPref {
+            preference == mScreenOnLightsPref) {
             // preference == mAutoGenerateColors) {
             getActivity().invalidateOptionsMenu();
         } else {
