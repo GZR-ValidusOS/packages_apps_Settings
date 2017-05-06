@@ -187,9 +187,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".batterylight.NotificationLightSettings" />
-        <activity android:name=".batterylight.BatteryLightSettings" />
-
         <!-- Wireless Controls -->
         <activity android:name="Settings$WirelessSettingsActivity"
                 android:taskAffinity="com.android.settings"
