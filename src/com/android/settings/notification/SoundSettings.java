@@ -90,6 +90,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     private static final String KEY_LESS_NOTIFICATION_SOUNDS = "less_notification_sounds";
     private static final String KEY_ZEN_MODE = "zen_mode";
     private static final String KEY_CELL_BROADCAST_SETTINGS = "cell_broadcast_settings";
+    private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
 
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
     private static final int REQUEST_CODE = 200;
@@ -137,6 +138,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     private int mRingerMode = -1;
     private TwoStatePreference mVolumeLinkNotification;
     private ListPreference mAnnoyingNotifications;
+    private ListPreference mLaunchPlayerHeadsetConnection;
 
     private PackageManager mPm;
     private UserManager mUserManager;
@@ -150,6 +152,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ContentResolver resolver = getActivity().getContentResolver();
         mContext = getActivity();
         mPm = getPackageManager();
         mUserManager = UserManager.get(getContext());
@@ -169,6 +172,13 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
                 0);
         mAnnoyingNotifications.setValue(Integer.toString(notificationThreshold));
         mAnnoyingNotifications.setOnPreferenceChangeListener(this);
+
+        mLaunchPlayerHeadsetConnection = (ListPreference) findPreference(HEADSET_CONNECT_PLAYER);
+        int mLaunchPlayerHeadsetConnectionValue = Settings.System.getIntForUser(resolver,
+                Settings.System.HEADSET_CONNECT_PLAYER, 0, UserHandle.USER_CURRENT);
+        mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
+        mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
+        mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
 
         initVolumePreference(KEY_MEDIA_VOLUME, AudioManager.STREAM_MUSIC,
                 com.android.internal.R.drawable.ic_audio_media_mute);
@@ -801,14 +811,26 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
         }
     };
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         final String key = preference.getKey();
+
         if (KEY_LESS_NOTIFICATION_SOUNDS.equals(key)) {
-            final int val = Integer.valueOf((String) objValue);
+            final int val = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, val);
+            return true;
+        } else if (preference == mLaunchPlayerHeadsetConnection) {
+            int mLaunchPlayerHeadsetConnectionValue = Integer.valueOf((String) newValue);
+            int index = mLaunchPlayerHeadsetConnection.findIndexOfValue((String) newValue);
+            mLaunchPlayerHeadsetConnection.setSummary(
+                    mLaunchPlayerHeadsetConnection.getEntries()[index]);
+            Settings.System.putIntForUser(resolver, Settings.System.HEADSET_CONNECT_PLAYER,
+                    mLaunchPlayerHeadsetConnectionValue, UserHandle.USER_CURRENT);
+            return true;
         }
-        return true;
+        return false;
     }
 
     // === Indexing ===

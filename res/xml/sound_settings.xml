@@ -123,12 +123,11 @@
                         android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
         </com.android.settingslib.RestrictedPreference>
 
-        <!-- Headset options -->
-        <Preference
-                android:key="headset_options"
-                android:title="@string/headset_options"
-                android:persistent="false"
-                android:fragment="com.android.settings.validus.HeadSetOptions" />
+        <ListPreference
+                android:key="headset_connect_player"
+                android:title="@string/headset_connect_player_title"
+                android:entries="@array/headset_connect_player_entries"
+                android:entryValues="@array/headset_connect_player_values" />
 
         <!-- Other sounds -->
         <Preference
