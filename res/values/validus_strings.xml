@@ -302,4 +302,9 @@
     <string name="headset_connect_player_bt">When BT headset is plugged in</string>
     <string name="headset_connect_player_both_no_carkit">When wired or BT headset (no carkit) is plugged in</string>
     <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>
+
+    <!-- Ambient Display Brightness -->
+    <string name="ambient_doze_custom_brightness_title">Ambient and LiftToWake brightness</string>
+    <string name="ambient_doze_auto_brightness_title">Ambient and LiftToWake auto brightness</string>
+    <string name="ambient_doze_auto_brightness_summary">Use last screen-on brightness value for Ambient Display or Lift to Wake screen</string>
 </resources>
