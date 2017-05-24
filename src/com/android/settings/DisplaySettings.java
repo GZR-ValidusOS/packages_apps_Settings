@@ -133,7 +133,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private PreferenceCategory mWakeUpOptions;
     private SwitchPreference mAmbientDozeAutoBrightness;
     private Preference mScreenSaverPreference;
-
+    private SwitchPreference mAmbientDozeAutoBrightness;
     private SwitchPreference mLiftToWakePreference;
     private SwitchPreference mDozePreference;
     private SwitchPreference mTapToWakePreference;
@@ -310,6 +310,30 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
             }
             Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
+        }
+
+        if (isDozeAvailable(activity)) {
+            mAmbientDozeCustomBrightness = (CustomSeekBarPreference) findPreference(AMBIENT_DOZE_CUSTOM_BRIGHTNESS);
+            int defaultValue = getResources().getInteger(
+                    com.android.internal.R.integer.config_screenBrightnessDoze);
+            int brightness = Settings.System.getIntForUser(resolver,
+                    Settings.System.AMBIENT_DOZE_CUSTOM_BRIGHTNESS, defaultValue, UserHandle.USER_CURRENT);
+            mAmbientDozeCustomBrightness.setMin(defaultValue);
+            mAmbientDozeCustomBrightness.setValue(brightness);
+            mAmbientDozeCustomBrightness.setOnPreferenceChangeListener(this);
+
+            mAmbientDozeAutoBrightness = (SwitchPreference) findPreference(AMBIENT_DOZE_AUTO_BRIGHTNESS);
+            boolean defaultAmbientDozeAutoBrighthness = getResources().getBoolean(
+                    com.android.internal.R.bool.config_allowAutoBrightnessWhileDozing);
+            boolean isAmbientDozeAutoBrighthness = Settings.System.getIntForUser(resolver,
+                    Settings.System.AMBIENT_DOZE_AUTO_BRIGHTNESS, defaultAmbientDozeAutoBrighthness ? 1 : 0,
+                    UserHandle.USER_CURRENT) == 1;
+            mAmbientDozeAutoBrightness.setChecked(isAmbientDozeAutoBrighthness);
+            mAmbientDozeAutoBrightness.setOnPreferenceChangeListener(this);
+            mAmbientDozeCustomBrightness.setEnabled(!isAmbientDozeAutoBrighthness);
+        } else {
+            removePreference(AMBIENT_DOZE_CUSTOM_BRIGHTNESS);
+            removePreference(AMBIENT_DOZE_AUTO_BRIGHTNESS);
         }
     }
 
@@ -517,6 +541,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             int value = Settings.Secure.getInt(getContentResolver(), DOZE_ENABLED, 1);
             mDozePreference.setChecked(value != 0);
         }
+
 
         // Update camera gesture #1 if it is available.
         if (mCameraGesturePreference != null) {
