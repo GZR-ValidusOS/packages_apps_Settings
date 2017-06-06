@@ -27,28 +27,8 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
-    <!-- Changelog -->
-    <string name="changelog_validus_title">Changelog</string>
-    <string name="changelog_validus_error">Unable to load changelog</string>
-
-    <!-- About Validus -->
-    <string name="about_validus">About Validus</string>
-
-    <!-- Share Validus -->
-    <string name="share_validus_title">Share Validus</string>
-    <string name="share_validus_summary">Let others know about Validus</string>
-    <string name="share_message">Check out what #Validus is all about @ https://plus.google.com/communities/109330559573276360638</string>
-    <string name="share_chooser_title">Share Validus</string>
-
-    <!-- Sites Validus -->
-    <string name="validus_on_web">Validus on web</string>
-    <string name="validus_source_title">Github</string>
-    <string name="validus_source_summary">Visit our source git team</string>
-    <string name="validus_google_plus_title">Google+</string>
-    <string name="validus_google_plus_summary">Visit our G+ page for support and news</string>
-
-    <!-- ValidusOTA -->
-    <string name="slimota_title">Validus Updates</string>
+    <!-- GZRomsApp -->
+    <string name="gzroms_app_title">Ground Zero Roms (Updates)</string>
 
     <!-- WolvesDen -->
     <string name="wolvesden_title">WolvesDen</string>

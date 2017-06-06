@@ -19,6 +19,16 @@
                           android:enabled="false"
                           android:layout="@layout/validus_logo_row" />
 
+        <!-- GZRomsApp -->
+        <PreferenceScreen
+               android:key="gzRomsApp"
+               android:title="@string/gzroms_app_title">
+               <intent
+                       android:action="android.intent.action.MAIN"
+                       android:targetPackage="com.jerrica.GZRoms"
+                       android:targetClass="com.jerrica.GZRoms.MainActivity" />
+        </PreferenceScreen>
+
         <!-- Validus build version -->
         <com.android.settings.DividerPreference
                 android:key="validus_version"
@@ -30,21 +40,6 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"
 		android:icon="@drawable/gzr_logo" />
-
-        <!-- Validus OTA -->
-        <PreferenceScreen
-               android:key="slimota"
-               android:title="@string/slimota_title" >
-               <intent
-                       android:action="android.intent.action.MAIN"
-                       android:targetPackage="com.fusionjack.slimota"
-                       android:targetClass="com.fusionjack.slimota.MainActivity" />
-        </PreferenceScreen>
-
-        <!-- About Validus -->
-        <PreferenceScreen android:key="about"
-                android:title="@string/about_validus"
-                android:fragment="com.android.settings.validus.About" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
