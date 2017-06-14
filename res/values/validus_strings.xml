@@ -27,6 +27,10 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
+    <!-- Changelog -->
+    <string name="changelog_validus_title">Changelog</string>
+    <string name="changelog_validus_error">Unable to load changelog</string>
+
     <!-- GZRomsApp -->
     <string name="gzroms_app_title">Ground Zero Roms (Updates)</string>
 
