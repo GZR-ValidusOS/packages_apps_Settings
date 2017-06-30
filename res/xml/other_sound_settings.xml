@@ -24,11 +24,10 @@
             android:key="dial_pad_tones"
             android:title="@string/dial_pad_tones_title" />
 
-    <!-- Screenshot sounds -->
+    <!-- Screenshot sound -->
     <SwitchPreference
         android:key="screenshot_sound"
         android:title="@string/screenshot_sound_title"
-        android:summary="@string/screenshot_sound_summary"
         android:defaultValue="true" />
 
     <!-- Screen locking sounds -->
