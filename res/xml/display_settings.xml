@@ -67,6 +67,26 @@
                 android:fragment="com.android.settings.DreamSettings" />
 
         <SwitchPreference
+                android:key="tap_to_wake"
+                android:title="@string/tap_to_wake"
+                android:summary="@string/tap_to_wake_summary" />
+
+        <com.gzr.wolvesden.preference.SystemSettingSwitchPreference
+                android:key="proximity_on_wake"
+                android:title="@string/proximity_wake_title"
+                android:summary="@string/proximity_wake_summary"
+                android:defaultValue="true" />
+
+        <com.gzr.wolvesden.preference.GlobalSettingSwitchPreference
+                android:key="wake_when_plugged_or_unplugged"
+                android:title="@string/wake_when_plugged_or_unplugged_title"
+                android:summary="@string/wake_when_plugged_or_unplugged_summary"
+                android:defaultValue="true" />
+
+        <PreferenceCategory
+                android:title="@string/ambient_doze_category" />
+
+        <SwitchPreference
                 android:key="lift_to_wake"
                 android:title="@string/lift_to_wake_title" />
 
@@ -78,6 +98,7 @@
         <com.gzr.wolvesden.preference.CustomSeekBarPreference
                 android:key="ambient_doze_custom_brightness"
                 android:title="@string/ambient_doze_custom_brightness_title"
+                android:summary="@string/ambient_doze_custom_brightness_summary"
                 android:max="255"
                 settings:units=""
                 android:persistent="false" />
@@ -86,17 +107,6 @@
                 android:key="ambient_doze_auto_brightness"
                 android:title="@string/ambient_doze_auto_brightness_title"
                 android:summary="@string/ambient_doze_auto_brightness_summary" />
-
-        <SwitchPreference
-                android:key="tap_to_wake"
-                android:title="@string/tap_to_wake"
-                android:summary="@string/tap_to_wake_summary" />
-
-        <com.gzr.wolvesden.preference.SystemSettingSwitchPreference
-                android:key="proximity_on_wake"
-                android:title="@string/proximity_wake_title"
-                android:summary="@string/proximity_wake_summary"
-                android:defaultValue="true" />
 
          <PreferenceCategory
                 android:key="rotation_category"
@@ -122,12 +132,6 @@
                 android:title="@string/wifi_display_settings_title"
                 settings:keywords="@string/keywords_display_cast_screen"
                 android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
-
-        <com.gzr.wolvesden.preference.GlobalSettingSwitchPreference
-                android:key="wake_when_plugged_or_unplugged"
-                android:title="@string/wake_when_plugged_or_unplugged_title"
-                android:summary="@string/wake_when_plugged_or_unplugged_summary"
-                android:defaultValue="true" />
 
         <DropDownPreference
                 android:key="vr_display_pref"
